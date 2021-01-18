@@ -1,6 +1,6 @@
 module.exports = {
   title: 'SWIFT',
-  tagline: 'The tagline of my site',
+  tagline: 'Students With an Interest in the Future of Technology',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
