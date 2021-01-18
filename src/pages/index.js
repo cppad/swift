@@ -39,37 +39,6 @@ const features = [
   },
 ];
 
-function Events(){
-  return(
-    <div class="bg-black">
-    <div class="row">
-      <div class="col col--6">Relational model for time series
-
-Data stored in chronological order
-
-Time partitioned
-
-Scalable ingestion
-
-Immediate consistency
-
-Fast InfluxDB line protocol</div>
-      <div class="col col--6">col</div>
-    </div>
-    </div>
-
-  )
-}
-
-function News(){
-  return(
-    <div class="row">
-      <div class="col col--6">col</div>
-      <div class="col col--6">col</div>
-    </div>
-  )
-}
-
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
@@ -86,7 +55,7 @@ function Feature({imageUrl, title, description}) {
 }
 
 
-
+// test
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
@@ -95,6 +64,10 @@ function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
+        {/* want image spanning container with text in middle */}
+        {/* <img 
+            alt="Header Banner" 
+            src={useBaseUrl('img/banner.jpg')}/> */}
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -110,16 +83,20 @@ function Home() {
           </div>
         </div>
       </header>
-      
       <main>
-
-      <News />
-      <Events />
-      
-      
+        {features && features.length > 0 && (
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {features.map((props, idx) => (
+                  <Feature key={idx} {...props} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
       </main>
     </Layout>
-  
   );
 }
 
