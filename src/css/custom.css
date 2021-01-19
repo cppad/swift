@@ -24,10 +24,6 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-img {
-  width: 100%;
-}
-
 /* .row {
   margin: 50px auto;
   width: 50%;
@@ -45,8 +41,17 @@ img {
 }
 
 /* BANNER */
+/* this isn't responsive */
 .hero-image {
   opacity: 0.5;
+  /* width: 100%; */
+}
+
+/* is reponsive but yucky image path and opacity will make children (hero-text) dim as well*/
+.hero-image2 {
+  background-image: url(../../static/img/banner.jpg);
+  background-size: cover;
+  /* opacity: 0.5; */
 }
 
 .hero-text {
@@ -54,5 +59,12 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 966px) {
+  .hero-image {
+  }
+  
 }
 
