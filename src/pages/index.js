@@ -61,7 +61,7 @@ function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-        
+
       {/* <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -99,7 +99,17 @@ function Home() {
         </div>
       </header>
       
+      
       <main>
+        {/* 500x500 Twitter feed - https://publish.twitter.com/ */}
+        <a class="twitter-timeline" data-lang="en" 
+          data-width="500" data-height="500" 
+          data-theme="dark" 
+          href="https://twitter.com/calpolyswift?ref_src=twsrc%5Etfw">
+            Tweets by calpolyswift</a>
+        <script async src="https://platform.twitter.com/widgets.js" 
+          charset="utf-8"></script>
+
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
