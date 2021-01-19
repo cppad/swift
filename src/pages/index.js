@@ -81,6 +81,7 @@ function Home() {
 
       <header className={clsx(styles.heroBanner)}>
         <img 
+            className="hero-image"
             alt="Hero Banner" 
             src={useBaseUrl('img/banner.jpg')}/>
         <div className="container hero-text">
