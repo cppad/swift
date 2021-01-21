@@ -104,7 +104,7 @@ function Home() {
       <main>
         {/* 500x500 Twitter feed - https://publish.twitter.com/ */}
         <a class="twitter-timeline" data-lang="en" 
-          data-width="500" data-height="500" 
+          data-width="300" data-height="300" 
           data-theme="dark" 
           href="https://twitter.com/calpolyswift?ref_src=twsrc%5Etfw">
             Tweets by calpolyswift</a>
