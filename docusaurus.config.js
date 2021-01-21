@@ -8,7 +8,8 @@ module.exports = {
   favicon: 'img/SWIFT_favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
-  themeConfig: {
+  themeConfig:
+   {
     navbar: {
       title: '',
       style: 'dark',
@@ -17,13 +18,49 @@ module.exports = {
         src: 'img/SWIFT_Logo.png',
       },
       items: [
+        {to: 'about', label: 'About', position: 'left'},
+        {to: 'membership', label: 'Membership', position: 'left'},
+        {to: 'news', label: 'News', position: 'left'},
+        {to: 'events', label: 'Events', position: 'left'},
         {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
+
+        // A doesn't have active hover class, and when click on link it opens new tab
+        // B has active hover class, doesn't open new tab when click on link
+        // A https://v2.docusaurus.io/docs/api/themes/configuration/#navbar-dropdown
+        {
+          label: 'Community',
+          position: 'left', // or 'right'
+          items: [
+            {
+              label: 'Facebook',
+              href: '...',
+            },
+            {
+              label: 'GitHub',
+              href: '...',
+            },
+            // ... more items
+          ],
+        },
+        // B https://v2.docusaurus.io/docs/api/themes/configuration/#navbar-docs-version-dropdown
+        {
+          type: 'docsVersionDropdown',
+          position: 'left',
+
+          // Add additional dropdown items at the beginning/end of the dropdown.
+          dropdownItemsBefore: [],
+          dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+
+          // Do not add the link active class when browsing docs.
+          dropdownActiveClassDisabled: true,
+        },
         {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'contact', label: 'Contact', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

@@ -18,6 +18,19 @@
 
   --ifm-background-color: #242526;
   --ifm-font-color-base: #ffffff;
+
+  /* Nav */
+  /* Nav Dropdown */
+  --ifm-dropdown-background-color: #242526;
+  /* --ifm-dropdown-link-color: #484A4C; */
+  --ifm-dropdown-hover-background-color: #484A4C;
+
+  /* Link */
+  /* --ifm-link-color: red; */
+  /* --ifm-link-hover-color: red; */
+
+  /* Docs */
+  /* --ifm-heading-color: #000; */
 }
 
 /* set dark mode in config doesn't work, so set manually here */
