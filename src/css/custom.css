@@ -31,11 +31,23 @@
 
   /* Docs */
   /* --ifm-heading-color: #000; */
+  --ifm-toc-border-color: transparent; /*sidebar vertical line color*/
+  --ifm-menu-color: white; /*left sidebar link color*/
+  --ifm-color-content-secondary: white; /*right sidebar link color*/
+
+  /* TABLE */
+  --ifm-table-stripe-background: #484A4C;
 }
 
 /* set dark mode in config doesn't work, so set manually here */
-.navbar--dark {
+.navbar {
+  opacity: 0.9;
   --ifm-navbar-background-color: #242526;
+}
+
+.navbar .navbar__items {
+  display: flex;
+  justify-content: center;
 }
 
 .docusaurus-highlight-code-line {
@@ -43,10 +55,6 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
-}
-
-main {
-  /* background-color: #18191A; */
 }
 
 /* .row {
@@ -66,17 +74,12 @@ main {
 }
 
 /* BANNER */
-/* this isn't responsive */
 .hero-image {
-  opacity: 0.5;
-  /* width: 100%; */
-}
-
-/* is reponsive but yucky image path and opacity will make children (hero-text) dim as well*/
-.hero-image2 {
   background-image: url(../../static/img/banner.jpg);
   background-size: cover;
-  /* opacity: 0.5; */
+  opacity: 0.5;
+  height: 70vh;
+  --ifm-hero-text-color: white;
 }
 
 .hero-text {
@@ -84,11 +87,12 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-
-@media screen and (max-width: 966px) {
-  .hero-image {
+@media screen and (max-width: 996px) {
+  .navbar .navbar__items {
+    justify-content: flex-start;
   }
   
 }

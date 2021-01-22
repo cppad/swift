@@ -62,8 +62,8 @@ function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
 
-      <header className={clsx('hero hero--primary hero-image2', styles.heroBanner)}>
-        <div className="container">
+      <header className={clsx('hero hero--primary hero-image')}></header>
+        <div className="container hero-text">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
@@ -77,14 +77,11 @@ function Home() {
             </Link>
           </div>
         </div>
-      </header>
+      
 
-      {/* <header className={clsx(styles.heroBanner)}>
-        <img 
-            className="hero-image"
-            alt="Hero Banner" 
-            src={useBaseUrl('img/banner.jpg')}/>
-        <div className="container hero-text">
+      {/* ORIGINAL */}
+      {/* <header className={clsx('hero hero--primary', styles.heroBanner)}>
+        <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>

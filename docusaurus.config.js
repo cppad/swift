@@ -22,12 +22,7 @@ module.exports = {
         {to: 'membership', label: 'Membership', position: 'left'},
         {to: 'news', label: 'News', position: 'left'},
         {to: 'events', label: 'Events', position: 'left'},
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
+        
 
         // A doesn't have active hover class, and when click on link it opens new tab
         // B has active hover class, doesn't open new tab when click on link
@@ -59,13 +54,19 @@ module.exports = {
           // Do not add the link active class when browsing docs.
           dropdownActiveClassDisabled: true,
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {to: 'contact', label: 'Contact', position: 'left'},
+        {to: 'blog', label: 'Blog', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'Docs',
           position: 'right',
         },
+        // {
+        //   href: 'https://github.com/facebook/docusaurus',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -115,7 +116,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus.`,
     },
     colorMode: {
       /**
