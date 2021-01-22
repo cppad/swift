@@ -54,6 +54,23 @@ function Feature({imageUrl, title, description}) {
   );
 }
 
+function News(){
+  return(
+    <div class="row">
+      <div class="col col--6">col</div>
+      <div class="col col--6">
+        <a class="twitter-timeline" data-lang="en" 
+          data-width="300" data-height="300" 
+          data-theme="dark" 
+          href="https://twitter.com/calpolyswift?ref_src=twsrc%5Etfw">
+            Tweets by calpolyswift</a>
+        <script async src="https://platform.twitter.com/widgets.js" 
+          charset="utf-8"></script>
+      </div>
+    </div>
+  )
+}
+
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
@@ -72,8 +89,8 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
-              Get Started
+              to={useBaseUrl('about/')}>
+              Our Story
             </Link>
           </div>
         </div>
@@ -99,15 +116,6 @@ function Home() {
       
       
       <main>
-        {/* 500x500 Twitter feed - https://publish.twitter.com/ */}
-        <a class="twitter-timeline" data-lang="en" 
-          data-width="300" data-height="300" 
-          data-theme="dark" 
-          href="https://twitter.com/calpolyswift?ref_src=twsrc%5Etfw">
-            Tweets by calpolyswift</a>
-        <script async src="https://platform.twitter.com/widgets.js" 
-          charset="utf-8"></script>
-
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
@@ -119,6 +127,11 @@ function Home() {
             </div>
           </section>
         )}
+
+        <section class="container">
+          <News />
+        </section>
+
       </main>
     </Layout>
   );
