@@ -93,6 +93,21 @@
   text-align: center;
 }
 
+/* SECTION */
+.section {
+  padding: 5rem 0;
+}
+
+.section-background-color {
+  background-color: #484A4C;
+}
+
+/* #484A4C */
+
+.footer {
+  background-color: #242526;
+}
+
 @media screen and (max-width: 996px) {
   .navbar .navbar__items {
     justify-content: flex-start;
