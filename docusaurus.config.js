@@ -3,11 +3,11 @@ module.exports = {
   tagline: 'Students With an Interest in the Future of Technology',
   url: 'https://cfalucho.github.io',
   baseUrl: '/project-creatine/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/SWIFT_favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'creatine', // Usually your repo name.
+  organizationName: 'cfalucho', // Usually your GitHub org/user name.
+  projectName: 'project-creatine', // Usually your repo name.
   themeConfig:
    {
     navbar: {
