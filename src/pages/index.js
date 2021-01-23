@@ -126,9 +126,9 @@ function News(){
 function TwoColumns1() {
   return(
     <section class="">
-      <h2 class="news">Header2</h2>
       <div class="row">
         <div class="col col--6">
+          <h2 class="">Header2</h2>
           <p>Leverage agile frameworks to provide a robust synopsis for high 
             level overviews. Iterative approaches to corporate strategy foster 
             collaborative thinking to further the overall value proposition. 
@@ -160,7 +160,6 @@ function TwoColumns1() {
 function TwoColumns2() {
   return(
     <section class="">
-      <h2 class="news">Header2</h2>
       <div class="row">
         <div class="col col--6">
           <img
@@ -170,6 +169,7 @@ function TwoColumns2() {
           />
         </div>
         <div class="col col--6">
+          <h2 class="">Header2</h2>
           <p>Leverage agile frameworks to provide a robust synopsis for high 
             level overviews. Iterative approaches to corporate strategy foster 
             collaborative thinking to further the overall value proposition. 

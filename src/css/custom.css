@@ -94,6 +94,10 @@
 }
 
 /* SECTION */
+.col {
+  border-style: none;
+}
+
 .section {
   padding: 5rem 0;
 }
