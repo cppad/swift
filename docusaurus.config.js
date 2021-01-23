@@ -1,6 +1,7 @@
 module.exports = {
   title: 'SWIFT',
   tagline: 'Students With an Interest in the Future of Technology',
+  // tagline: 'STUDENTS WITH AN INTEREST IN THE FUTURE OF TECHNOLOGY',
   url: 'https://cfalucho.github.io',
   baseUrl: '/project-creatine/',
   onBrokenLinks: 'ignore',
@@ -15,45 +16,46 @@ module.exports = {
       style: 'dark',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/SWIFT_Logo.png',
+        src: 'img/logo_light_gray.png',
       },
       items: [
         {to: 'about', label: 'About', position: 'left'},
         {to: 'membership', label: 'Membership', position: 'left'},
         {to: 'news', label: 'News', position: 'left'},
-        {to: 'events', label: 'Events', position: 'left'},
+        // {to: 'events', label: 'Events', position: 'left'},
         
 
         // A doesn't have active hover class, and when click on link it opens new tab
         // B has active hover class, doesn't open new tab when click on link
         // A https://v2.docusaurus.io/docs/api/themes/configuration/#navbar-dropdown
         {
-          label: 'Community',
+          label: 'Events',
           position: 'left', // or 'right'
           items: [
             {
-              label: 'Facebook',
+              label: 'Tech Symposium',
               href: '...',
             },
             {
-              label: 'GitHub',
+              label: 'Workshops',
               href: '...',
             },
             // ... more items
           ],
         },
+
         // B https://v2.docusaurus.io/docs/api/themes/configuration/#navbar-docs-version-dropdown
-        {
-          type: 'docsVersionDropdown',
-          position: 'left',
+        // {
+        //   type: 'docsVersionDropdown',
+        //   position: 'left',
 
-          // Add additional dropdown items at the beginning/end of the dropdown.
-          dropdownItemsBefore: [],
-          dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+        //   // Add additional dropdown items at the beginning/end of the dropdown.
+        //   dropdownItemsBefore: [],
+        //   dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
 
-          // Do not add the link active class when browsing docs.
-          dropdownActiveClassDisabled: true,
-        },
+        //   // Do not add the link active class when browsing docs.
+        //   dropdownActiveClassDisabled: true,
+        // },
         {to: 'contact', label: 'Contact', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'right'},
         {
@@ -118,6 +120,7 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus.`,
     },
+
     colorMode: {
       /**
        * unable to change default to dark mode, so must manually change colors
