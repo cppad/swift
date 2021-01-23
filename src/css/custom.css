@@ -45,7 +45,7 @@
   --ifm-table-stripe-background: #484A4C;
 
   /* CARD */
-  --ifm-background-surface-color: #3b3d3f; /*card background color*/
+  --ifm-background-surface-color: #3b3d3f !important; /*card background color*/
   --ifm-color-emphasis-0: #242526; /*button color*/
 }
 
