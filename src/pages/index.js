@@ -59,7 +59,7 @@ function Feature({imageUrl, title, description}) {
 function News(){
   return(
     <section class="news">
-      <h2 class="news">Recent News</h2>
+      <h2 class="news">Latest Activity</h2>
       <div class="row">
         <div class="col col--4">
           <div class="card-demo">
@@ -76,7 +76,8 @@ function News(){
                 <small>
                   The Quaco Head Lighthouse is a well maintained lighthouse close to St.
                   Martins. It is a short, beautiful walk to the lighthouse along the
-                  seashore.
+                  seashore. The Quaco Head Lighthouse is a well maintained lighthouse close to St.
+                  Martins.
                 </small>
               </div>
               <div class="card__footer">
@@ -111,7 +112,7 @@ function News(){
         </div>
         <div class="col col--4">
           <a class="twitter-timeline" data-lang="en" 
-            data-width="300" data-height="300" 
+            data-width="300" data-height="450" 
             data-theme="dark" 
             href="https://twitter.com/calpolyswift?ref_src=twsrc%5Etfw">
               Tweets by calpolyswift</a>
@@ -119,6 +120,10 @@ function News(){
             charset="utf-8"></script>
         </div>
       </div>
+      {/* <div class="row">
+        <div class="col col--4">
+        </div>
+      </div> */}
     </section>
   )
 }
