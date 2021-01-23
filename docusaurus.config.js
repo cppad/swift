@@ -1,13 +1,13 @@
 module.exports = {
   title: 'SWIFT',
   tagline: 'Students With an Interest in the Future of Technology',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://cfalucho.github.io',
+  baseUrl: '/project-creatine/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/SWIFT_favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'creatine', // Usually your repo name.
   themeConfig:
    {
     navbar: {
