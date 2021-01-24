@@ -6,6 +6,9 @@
  */
 
 /* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?&family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css2?&family=Audiowide&display=swap');
+
 :root {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
@@ -16,7 +19,7 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
 
-  --ifm-background-color: #242526;
+  --ifm-background-color: #242526 !important;
   --ifm-font-color-base: #ffffff;
 
   /* Nav */
@@ -40,12 +43,16 @@
 
   /* TABLE */
   --ifm-table-stripe-background: #484A4C;
+
+  /* CARD */
+  --ifm-background-surface-color: #343638; /*card background color*/
+  --ifm-color-emphasis-0: #242526; /*button color*/
 }
 
 /* set dark mode in config doesn't work, so set manually here */
 .navbar {
   opacity: 0.9;
-  --ifm-navbar-background-color: #242526;
+  --ifm-navbar-background-color: #242526 !important;
 }
 
 .navbar .navbar__items {
@@ -83,6 +90,7 @@
   opacity: 0.5;
   height: 70vh;
   --ifm-hero-text-color: white;
+
 }
 
 .hero-text {
@@ -91,6 +99,33 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  /* font-family: 'Courier New', 'Courier', 'monospace'; */
+  font-family: monospace, 'Courier New', 'Courier';
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande'; */
+}
+
+/* text shadow */
+.hero__title {
+  letter-spacing: 0.3em;
+  padding-left: 0.3em;
+  font-size: 5rem;
+  /* font-family: 'Roboto'; */
+  /* font-family: 'Courier New', 'Courier', 'monospace'; */
+  /* font-family: monospace, 'Courier New', 'Courier'; */
+  /* font-family: 'Alatsi', sans-serif; */
+  font-family: 'Audiowide', sans-serif;
+
+  /* teal text shadow */
+  /* text-shadow: 4px 2px #21AF90; */
+
+  /* black text shadow */
+  /* text-shadow: 8px 2px #242526; */
+
+  /* text shadow with black blur */
+  text-shadow: 2px 2px 20px #242526, 2px 2px 20px #242526, 2px 2px 20px #242526, 2px 2px 20px #242526, 2px 2px 20px #242526;
+
+  /* text shadow with teal blur */
+  /* text-shadow: 2px 2px 20px #21AF90, 2px 2px 20px #21AF90; */
 }
 
 /* SECTION */
@@ -106,8 +141,7 @@
   background-color: #484A4C;
 }
 
-/* #484A4C */
-
+/* FOOTER */
 .footer {
   background-color: #242526;
 }
