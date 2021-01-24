@@ -54,7 +54,7 @@
   /* --ifm-color-emphasis-0: #242526; */
 }
 
-/* set dark mode in config doesn't work, so set manually here */
+/* NAVBAR */
 .navbar {
   opacity: 0.9;
   --ifm-navbar-background-color: #242526 !important;
@@ -74,6 +74,7 @@ h2 a, .avatar a, .pagination-nav__link {
   color: #E98400;
 }
 
+/* DOCUSAURUS */
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -81,20 +82,9 @@ h2 a, .avatar a, .pagination-nav__link {
   padding: 0 var(--ifm-pre-padding);
 }
 
-/* .row {
-  margin: 50px auto;
-  width: 50%;
-  padding: 50px auto
-} */
-
 .col--6 {
   border-style: solid;
   border-width: 1px;
-}
-
-.bg-black {
-  color: #E4E4E4;
-  background-color: #303846;
 }
 
 /* hero button */
@@ -128,8 +118,6 @@ h2 a, .avatar a, .pagination-nav__link {
   /* font-family: 'Courier New', 'Courier', 'monospace'; */
   font-family: monospace, 'Courier New', 'Courier';
   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande'; */
-
-
 }
 
 /* text shadow */
@@ -161,6 +149,7 @@ h2 a, .avatar a, .pagination-nav__link {
 .card .button {
   background-color: #306CCE;
   border-color: #306CCE;
+  color: #ffffff;
 }
 
 /* SECTION */
