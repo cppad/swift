@@ -10,17 +10,20 @@
 @import url('https://fonts.googleapis.com/css2?&family=Audiowide&display=swap');
 
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #E98400;
+  /* --ifm-color-primary: #306CCE; */
+
+  /* --ifm-color-primary-dark: #033773; */
+  /* --ifm-color-primary-darker: rgb(31, 165, 136); */
+  /* --ifm-color-primary-darkest: rgb(26, 136, 112); */
+  /* --ifm-color-primary-light: rgb(70, 203, 174); */
+  /* --ifm-color-primary-lighter: rgb(102, 212, 189); */
+  /* --ifm-color-primary-lightest: rgb(146, 224, 208); */
   --ifm-code-font-size: 95%;
 
   --ifm-background-color: #242526 !important;
-  --ifm-font-color-base: #ffffff;
+  /* --ifm-background-color: #033773 !important; */
+  --ifm-font-color-base: #E4E4E4;
 
   /* Nav */
   /* Nav Dropdown */
@@ -32,21 +35,23 @@
   --ifm-hero-background-color: transparent;
 
   /* Link */
-  /* --ifm-link-color: red; */
+  --ifm-link-color: #306CCE;
   /* --ifm-link-hover-color: red; */
 
   /* Docs */
   /* --ifm-heading-color: #000; */
   --ifm-toc-border-color: transparent; /*sidebar vertical line color*/
-  --ifm-menu-color: white; /*left sidebar link color*/
-  --ifm-color-content-secondary: white; /*right sidebar link color*/
+  --ifm-menu-color: #E4E4E4; /*left sidebar link color*/
+  --ifm-color-content-secondary: #E4E4E4; /*right sidebar link color*/
 
   /* TABLE */
   --ifm-table-stripe-background: #484A4C;
 
+  /* BUTTON */
+
   /* CARD */
   --ifm-background-surface-color: #3b3d3f !important; /*card background color*/
-  --ifm-color-emphasis-0: #242526; /*button color*/
+  /* --ifm-color-emphasis-0: #242526; */
 }
 
 /* set dark mode in config doesn't work, so set manually here */
@@ -58,6 +63,15 @@
 .navbar .navbar__items {
   display: flex;
   justify-content: center;
+}
+
+.navbar .navbar__link:hover {
+  border-bottom: 1px solid #E98400;
+}
+
+/* PAGINATION (DOCS) */
+h2 a, .avatar a, .pagination-nav__link {
+  color: #E98400;
 }
 
 .docusaurus-highlight-code-line {
@@ -79,8 +93,20 @@
 }
 
 .bg-black {
-  color: white;
+  color: #E4E4E4;
   background-color: #303846;
+}
+
+/* hero button */
+.button--secondary {
+  /* background-color: #E98400; */
+  /* outline-color: #E98400; */
+  border-color: #E98400;
+  --ifm-font-color-base: #E98400;
+}
+.button--secondary:hover {
+  color: black;
+  background-color: #E98400;
 }
 
 /* BANNER */
@@ -89,7 +115,7 @@
   background-size: cover;
   opacity: 0.5;
   height: 70vh;
-  --ifm-hero-text-color: white;
+  --ifm-hero-text-color: #E4E4E4;
 
 }
 
@@ -102,6 +128,8 @@
   /* font-family: 'Courier New', 'Courier', 'monospace'; */
   font-family: monospace, 'Courier New', 'Courier';
   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande'; */
+
+
 }
 
 /* text shadow */
@@ -126,6 +154,13 @@
 
   /* text shadow with teal blur */
   /* text-shadow: 2px 2px 20px #21AF90, 2px 2px 20px #21AF90; */
+
+}
+
+/* CARD */
+.card .button {
+  background-color: #306CCE;
+  border-color: #306CCE;
 }
 
 /* SECTION */
@@ -139,11 +174,13 @@
 
 .section-background-color {
   background-color: #484A4C;
+  /* background-color: #033773; */
 }
 
 /* FOOTER */
 .footer {
   background-color: #242526;
+  /* background-color: #033773; */
 }
 
 @media screen and (max-width: 996px) {
