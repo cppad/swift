@@ -149,7 +149,7 @@ h2 a, .avatar a, .pagination-nav__link {
 .card .button {
   background-color: #306CCE;
   border-color: #306CCE;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 /* SECTION */
