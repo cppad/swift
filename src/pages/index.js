@@ -111,13 +111,7 @@ function News(){
           </div>
         </div>
         <div class="col col--4">
-          <a class="twitter-timeline" data-lang="en" 
-            data-width="300" data-height="450" 
-            data-theme="dark" 
-            href="https://twitter.com/calpolyswift?ref_src=twsrc%5Etfw">
-              Tweets by calpolyswift</a>
-          <script async src="https://platform.twitter.com/widgets.js" 
-            charset="utf-8"></script>
+
         </div>
       </div>
       {/* <div class="row">
@@ -204,55 +198,39 @@ function Home() {
       title={`Welcome to ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
 
-      <header className={clsx('hero hero--primary hero-image')}></header>
+      <header className={clsx('hero hero--primary hero-image')}>
         <div className="container hero-text">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('about/')}>
-              Our Story
-            </Link>
-          </div>
-        </div>
-      
-
-      {/* ORIGINAL */}
-      {/* <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Get Started
-            </Link>
-          </div>
-        </div>
-      </header> */}
-      
-      
-      <main>
-        {/* {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
+          <div class="row">
+            <div class="col col--6">
+              <h1 className="hero__title">{siteConfig.title}</h1>
+              <p className="hero__subtitle">{siteConfig.tagline}</p>
+              <div className={styles.buttons}>
+                <Link
+                  className={clsx(
+                    'button button--outline button--secondary button--lg',
+                    styles.getStarted,
+                  )}
+                  to={useBaseUrl('about/')}>
+                  Our Story
+                </Link>
               </div>
             </div>
-          </section>
-        )} */}
+            <div class="col col--6">
+              <a class="twitter-timeline" data-lang="en" 
+                data-width="300" data-height="450" 
+                data-theme="dark" 
+                href="https://twitter.com/calpolyswift?ref_src=twsrc%5Etfw">
+                  Tweets by calpolyswift</a>
+              <script async src="https://platform.twitter.com/widgets.js" 
+                charset="utf-8"></script>
+            </div>
+          </div>
 
+
+        </div>
+      </header>
+
+      <main>
         <div class="section">
           <section class="container">
             <News />
@@ -268,7 +246,6 @@ function Home() {
             <TwoColumns2 />
           </section>
         </div>
-
       </main>
     </Layout>
   );
