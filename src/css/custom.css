@@ -20,7 +20,6 @@
   --ifm-code-font-size: 95%;
 
   --ifm-background-color: #242526 !important;
-  /* --ifm-background-color: #033773 !important; */
   --ifm-font-color-base: #E4E4E4;
 
   /* Nav */
@@ -56,6 +55,8 @@
 .navbar {
   opacity: 0.9;
   --ifm-navbar-background-color: #242526 !important;
+  /* --ifm-navbar-link-color: #306CCE; */
+  /* --ifm-navbar-link-hover-color: #306CCE; */
 }
 
 .navbar .navbar__items {
