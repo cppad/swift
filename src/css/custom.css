@@ -10,9 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?&family=Audiowide&display=swap');
 
 :root {
-  --ifm-color-primary: #E98400;
-  /* --ifm-color-primary: #306CCE; */
-
+  --ifm-color-primary: #306CCE;
   /* --ifm-color-primary-dark: #033773; */
   /* --ifm-color-primary-darker: rgb(31, 165, 136); */
   /* --ifm-color-primary-darkest: rgb(26, 136, 112); */
@@ -66,12 +64,12 @@
 }
 
 .navbar .navbar__link:hover {
-  border-bottom: 1px solid #E98400;
+  border-bottom: 1px solid #306CCE;
 }
 
 /* PAGINATION (DOCS) */
 h2 a, .avatar a, .pagination-nav__link {
-  color: #E98400;
+  color: #306CCE;
 }
 
 /* DOCUSAURUS */
@@ -91,12 +89,12 @@ h2 a, .avatar a, .pagination-nav__link {
 .button--secondary {
   /* background-color: #E98400; */
   /* outline-color: #E98400; */
-  border-color: #E98400;
-  --ifm-font-color-base: #E98400;
+  border-color: #306CCE;
+  --ifm-font-color-base: #306CCE;
 }
 .button--secondary:hover {
   color: black;
-  background-color: #E98400;
+  background-color: #306CCE;
 }
 
 /* BANNER */
