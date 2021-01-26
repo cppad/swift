@@ -16,7 +16,7 @@ module.exports = {
       style: 'dark',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo_white.png',
+        src: 'img/logo_only_words_white.png',
       },
       items: [
         {to: 'about', label: 'About', position: 'left'},

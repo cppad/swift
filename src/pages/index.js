@@ -122,6 +122,62 @@ function News(){
   )
 }
 
+const sections = [
+  {
+    title: 'Competitions',
+    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    description: (
+      <>
+        Docusaurus was designed from the ground up to be easily installed and
+        used to get your website up and running quickly.
+      </>
+    ),
+  },
+  {
+    title: 'Events',
+    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    description: (
+      <>
+        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory.
+      </>
+    ),
+  },
+  {
+    title: 'Meetings',
+    imageUrl: 'img/undraw_docusaurus_react.svg',
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+  {
+    title: 'Memberships',
+    imageUrl: 'img/undraw_docusaurus_react.svg',
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+];
+
+function SectionRightImage({imageUrl, title, description}) {
+  const imgUrl = useBaseUrl(imageUrl);
+  return (
+    <div className={clsx('col col--6')}>
+      <h2>{title}</h2>
+      <p>{description}</p>
+      <div class="col col--6">
+          <img src={imgUrl} alt={title} />
+      </div>
+    </div>
+  );
+}
+
 function TwoColumns1() {
   return(
     <section class="">
@@ -156,6 +212,19 @@ function TwoColumns1() {
   )
 }
 
+function SectionLeftImage({imageUrl, title, description}) {
+  const imgUrl = useBaseUrl(imageUrl);
+  return (
+    <div className={clsx('col col--6')}>
+      <h2>{title}</h2>
+      <p>{description}</p>
+      <div class="col col--6">
+          <img src={imgUrl} alt={title} />
+      </div>
+    </div>
+  );
+}
+
 function TwoColumns2() {
   return(
     <section class="">
@@ -168,7 +237,7 @@ function TwoColumns2() {
           />
         </div>
         <div class="col col--6">
-          <h2 class="">Header2</h2>
+          <h2 class="">Meetings</h2>
           <p>Leverage agile frameworks to provide a robust synopsis for high 
             level overviews. Iterative approaches to corporate strategy foster 
             collaborative thinking to further the overall value proposition. 
@@ -198,12 +267,17 @@ function Home() {
       title={`Welcome to ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
 
-      <header className={clsx('hero hero--primary hero-image')}>
+      <header className={clsx('hero hero--primary hero-banner')}>
         <div className="container hero-text">
           <div class="row">
-            <div class="col col--6">
-              <h1 className="hero__title">{siteConfig.title}</h1>
-              <p className="hero__subtitle">{siteConfig.tagline}</p>
+            <div class="col col--6 centered">
+              {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
+              {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
+              <img
+                src={useBaseUrl('img/logo_words_white.png')}
+                alt="Image alt text"
+                title="Logo Title Text 1"
+              />
               <div className={styles.buttons}>
                 <Link
                   className={clsx(
@@ -225,25 +299,31 @@ function Home() {
                 charset="utf-8"></script>
             </div>
           </div>
-
-
         </div>
+        {/* <img
+          id="logo-only"
+          src={useBaseUrl('img/logo_only_white.png')}
+          alt="Image alt text"
+          title="Logo Title Text 1"
+        /> */}
       </header>
 
       <main>
-        <div class="section">
+        <div class="section section-background-color">
           <section class="container">
             <News />
           </section>
         </div>
-        <div class="section section-background-color">
-          <section class="container">
-            <TwoColumns1 />
-          </section>
-        </div>
         <div class="section">
           <section class="container">
+            {/* <TwoColumns1 /> */}
+            <SectionRightImage />
+          </section>
+        </div>
+        <div class="section section-background-color">
+          <section class="container">
             <TwoColumns2 />
+            {/* <SectionLeftImage /> */}
           </section>
         </div>
       </main>
