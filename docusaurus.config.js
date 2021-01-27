@@ -21,13 +21,31 @@ module.exports = {
       items: [
         {to: 'about', label: 'About', position: 'left'},
         {to: 'membership', label: 'Membership', position: 'left'},
-        {to: 'news', label: 'News', position: 'left'},
         // {to: 'events', label: 'Events', position: 'left'},
         
 
         // A doesn't have active hover class, and when click on link it opens new tab
         // B has active hover class, doesn't open new tab when click on link
         // A https://v2.docusaurus.io/docs/api/themes/configuration/#navbar-dropdown
+        {
+          label: 'Competition',
+          position: 'left', // or 'right'
+          items: [
+            {
+              label: 'Overview',
+              href: '...',
+            },
+            {
+              label: 'CPTC',
+              href: '...',
+            },
+            {
+              label: 'CCDC',
+              href: '...',
+            },
+            // ... more items
+          ],
+        },
         {
           label: 'Events',
           position: 'left', // or 'right'
@@ -44,6 +62,7 @@ module.exports = {
           ],
         },
 
+        // dropdown for Docs
         // B https://v2.docusaurus.io/docs/api/themes/configuration/#navbar-docs-version-dropdown
         // {
         //   type: 'docsVersionDropdown',
@@ -75,32 +94,45 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Site',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'About',
+              to: 'about/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Membership',
+              to: 'membership/',
+            },
+            {
+              label: 'Contact',
+              to: 'contact/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Competition',
           items: [
             {
-              label: 'Stack Overflow',
+              label: 'CPTC',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
-              label: 'Discord',
+              label: 'CCDC',
               href: 'https://discordapp.com/invite/docusaurus',
             },
+          ],
+        },
+        {
+          title: 'Events',
+          items: [
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Tech Symposium',
+              to: 'blog',
+            },
+            {
+              label: 'Workshops',
+              to: 'docs',
             },
           ],
         },
@@ -112,8 +144,8 @@ module.exports = {
               to: 'blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Docs',
+              to: 'docs',
             },
           ],
         },
