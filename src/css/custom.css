@@ -55,6 +55,10 @@
   align-items: center !important;
 }
 
+.justify {
+
+}
+
 /* NAVBAR */
 .navbar {
   opacity: 0.9;
@@ -155,16 +159,40 @@ h2 a, .avatar a, .pagination-nav__link {
   /* background-color: #033773; */
 }
 
+.section h2 {
+  font-family: 'Audiowide', sans-serif;
+}
+
 /* FOOTER */
 .footer {
   background-color: var(--color-black);
   /* background-color: #033773; */
 }
 
-@media screen and (max-width: 996px) {
+/* Laptop View */
+@media screen and (max-width: 1024px) {
   .navbar .navbar__items {
     justify-content: flex-start;
   }
+
+  header img {
+    width: 70%;
+  }
+  
+  .twitter-timeline {
+    display: none;
+  }
+
+  .section p {
+    width: 70%;
+  }
+  
+  .section img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
   
 }
+
 
