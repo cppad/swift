@@ -45,11 +45,7 @@
   /*sidebar TOC vertical line color*/
   --ifm-toc-border-color: transparent; 
 
-  /*left TOC sidebar link color*/
-  /* --ifm-menu-color: var(--color-white);  */
 
-  /*right TOC sidebar link color*/
-  /* --ifm-color-content-secondary: var(--color-white);  */
 
   /* TABLE */
   --ifm-table-stripe-background: var(--color-gray-dark);
@@ -59,8 +55,19 @@
   --ifm-background-surface-color: #353535 !important; 
 }
 
+/* TOC SIDEBAR */
 .table-of-contents {
   font-size: 0.9rem;
+}
+
+/*right TOC sidebar link color*/
+.table-of-contents__link {
+  --ifm-toc-link-color: rgb(96, 103, 112);
+}
+
+/*left TOC sidebar link color*/
+.menu__link {
+  --ifm-menu-color: rgb(96, 103, 112);
 }
 
 .col {
