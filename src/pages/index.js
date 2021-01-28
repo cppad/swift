@@ -137,7 +137,7 @@ function Meeting() {
   return (
     <section class="">
       <div class="row">
-        <div class="col col--6">
+        <div class="col col--6 section-img">
           <img src={useBaseUrl("img/meeting.png")} alt="Meetings" />
         </div>
         <div class="col col--6 centered">

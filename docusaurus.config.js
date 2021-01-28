@@ -32,16 +32,18 @@ module.exports = {
           position: 'left', // or 'right'
           items: [
             {
-              label: 'Overview',
-              href: '...',
+              to: 'overview', 
+              label: 'Overview'
             },
             {
-              label: 'CPTC',
-              href: '...',
+              to: 'CPTC',
+              label: 'CPTC'
             },
             {
+              to: 'CCDC',
               label: 'CCDC',
-              href: '...',
+              // for new tab external links use- "href: http://.."
+              // href: '...',
             },
             // ... more items
           ],
@@ -51,30 +53,16 @@ module.exports = {
           position: 'left', // or 'right'
           items: [
             {
+              to: 'tech_symposium',
               label: 'Tech Symposium',
-              href: '...',
             },
             {
+              to: 'workshops',
               label: 'Workshops',
-              href: '...',
             },
-            // ... more items
           ],
         },
 
-        // dropdown for Docs
-        // B https://v2.docusaurus.io/docs/api/themes/configuration/#navbar-docs-version-dropdown
-        // {
-        //   type: 'docsVersionDropdown',
-        //   position: 'left',
-
-        //   // Add additional dropdown items at the beginning/end of the dropdown.
-        //   dropdownItemsBefore: [],
-        //   dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
-
-        //   // Do not add the link active class when browsing docs.
-        //   dropdownActiveClassDisabled: true,
-        // },
         {to: 'contact', label: 'Contact', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'right'},
         {
@@ -83,11 +71,6 @@ module.exports = {
           label: 'Docs',
           position: 'right',
         },
-        // {
-        //   href: 'https://github.com/facebook/docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
       ],
     },
     footer: {
