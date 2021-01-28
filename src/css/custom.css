@@ -20,7 +20,8 @@
   --color-orange: #e98400;
   --color-blue: #033773;
 
-  --ifm-background-color: var(--color-black) !important;
+  /* --ifm-background-color: var(--color-black) !important; */
+  --ifm-background-color: var(--color-gray) !important;
   --ifm-font-color-base: var(--color-white);
 
   /* Nav */
