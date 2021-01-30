@@ -74,7 +74,7 @@ function Competition() {
   return (
     <section class="">
       <div class="row">
-        <div class="col col--6 centered padded">
+        <div class="col col--6 centered side-padding">
           <h2 class="">COMPETITION</h2>
           <p class="text--justify">
             Take your skill to the next level with challenges that put you up
@@ -98,7 +98,7 @@ function Event() {
         <div class="col col--6 fixed-img">
           <img src={useBaseUrl("img/tech_symposium.jpg")} alt="Event" />
         </div>
-        <div class="col col--6 centered">
+        <div class="col col--6 centered side-padding">
           <h2 class="">EVENTS</h2>
           <p class="text--justify">
             We hold basic and advanced weekly workshops cover topics such as
@@ -116,7 +116,7 @@ function Membership() {
   return (
     <section class="">
       <div class="row">
-        <div class="col col--6 centered">
+        <div class="col col--6 centered side-padding">
           <h2 class="">MEMBERSHIP</h2>
           <p class="text--justify">
             If you like learning new topics, solving problems, breaking things,
@@ -140,7 +140,7 @@ function Meeting() {
         <div class="col col--6 fixed-img">
           <img src={useBaseUrl("img/meeting.png")} alt="Meetings" />
         </div>
-        <div class="col col--6 centered">
+        <div class="col col--6 centered side-padding">
           <h2 class="">MEETINGS</h2>
           <p class="text--justify">
             Come to our weekly meetings where we present and discuss topics

@@ -65,7 +65,9 @@
   height: 100%;
 }
 
-
+.side-padding {
+  padding: 0 5rem !important;
+}
 
 /* TOC SIDEBAR */
 .table-of-contents {
