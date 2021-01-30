@@ -6,12 +6,12 @@
  */
 
 /* You can override the default Infima variables here. */
-@import url('https://fonts.googleapis.com/css2?&family=Alatsi&display=swap');
-@import url('https://fonts.googleapis.com/css2?&family=Audiowide&display=swap');
+@import url("https://fonts.googleapis.com/css2?&family=Alatsi&display=swap");
+@import url("https://fonts.googleapis.com/css2?&family=Audiowide&display=swap");
 
 :root {
-  --ifm-color-primary: var(--color-blue-light);  
-  
+  --ifm-color-primary: var(--color-blue-light);
+
   /* website background color */
   --ifm-background-color: var(--color-black) !important;
 
@@ -24,7 +24,8 @@
   /* CUSTOM COLORS */
   --color-black: #1f1f1f;
   --color-gray: #575757;
-  --color-gray-dark: #484A4C;
+  --color-gray-dark: #484a4c;
+  --color-card-gray: #292F33;
   --color-white: #e4e4e4;
   --color-orange: #e98400;
   --color-blue: #033773;
@@ -43,28 +44,56 @@
   /* --ifm-heading-color: #000; */
 
   /*sidebar TOC vertical line color*/
-  --ifm-toc-border-color: transparent; 
-
-
+  --ifm-toc-border-color: transparent;
 
   /* TABLE */
   --ifm-table-stripe-background: var(--color-gray-dark);
 
   /* CARD */
   /*card background color*/
-  --ifm-background-surface-color: #353535 !important; 
+  --ifm-background-surface-color: #353535 !important;
 }
 
-.fixed-img {
+/* STRUCTURE */
+.col {
+  border-style: none;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* SCROLLBAR */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #A8A8A8;
+  border-radius: 20px;
+  border: 3px solid #A8A8A8;
+}
+
+*::-webkit-scrollbar-corner {
+  color: var(--color-card-gray);
+}
+
+/* TWITTER */
+.container-twitter {
+  width: 80%;
   height: 400px;
-  width: 400px;
-}
-
-.fixed-img  img{
-  /* background-size: cover; */
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+  overflow: scroll;
+  border: 1rem solid;
+  border-image: linear-gradient(to right, #3b86ff, #3adeff) 1;
+  background-color: var(--color-card-gray);
 }
 
 /* TOC SIDEBAR */
@@ -80,17 +109,6 @@
 /*left TOC sidebar link color*/
 .menu__link {
   --ifm-menu-color: rgb(96, 103, 112);
-}
-
-.col {
-  border-style: none;
-}
-
-.centered {
-  display: flex;
-  flex-direction: column;
-  justify-content: center !important;
-  align-items: center !important;
 }
 
 /* NAVBAR */
@@ -117,7 +135,9 @@
 }
 
 /* PAGINATION (DOCS) */
-h2 a, .avatar a, .pagination-nav__link {
+h2 a,
+.avatar a,
+.pagination-nav__link {
   color: var(--color-blue-light);
 }
 
@@ -139,7 +159,7 @@ h2 a, .avatar a, .pagination-nav__link {
 
 /* Hero Banner Text */
 .hero-text {
-  font-family: monospace, 'Courier New', 'Courier';
+  font-family: monospace, "Courier New", "Courier";
 }
 
 /* Hero Banner Button */
@@ -183,11 +203,25 @@ h2 a, .avatar a, .pagination-nav__link {
 
 section h2 {
   font-size: 3rem;
-  font-family: 'Audiowide', sans-serif;
+  font-family: "Audiowide", sans-serif;
 }
 
 section p {
   font-size: 1.2rem;
+}
+
+.fixed-img {
+  height: 400px;
+}
+
+.fixed-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.side-padding {
+  padding: 0 5rem !important;
 }
 
 /* FOOTER */
@@ -205,21 +239,8 @@ section p {
   header img {
     width: 70%;
   }
-  
+
   .twitter-timeline {
     display: none;
   }
-
-  .section p {
-    width: 70%;
-  }
-  
-  .section img {
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-  }
-  
 }
-
-
