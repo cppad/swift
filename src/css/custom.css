@@ -94,6 +94,10 @@
 }
 
 /* NAVBAR */
+.navbar__logo{
+  height: 60px;
+}
+
 .navbar {
   opacity: 0.9;
   --ifm-navbar-background-color: var(--color-black) !important;
@@ -104,6 +108,7 @@
 .navbar .navbar__items {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 
 /* DROPDOWN LINK AFTER CLICK */
