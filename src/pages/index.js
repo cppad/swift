@@ -83,7 +83,7 @@ function Competition() {
             you from the ground up.
           </p>
         </div>
-        <div class="col col--6">
+        <div class="col col--6 fixed-img">
           <img src={useBaseUrl("img/nationals.jpg")} alt="Competition" />
         </div>
       </div>
@@ -95,7 +95,7 @@ function Event() {
   return (
     <section class="">
       <div class="row">
-        <div class="col col--6">
+        <div class="col col--6 fixed-img">
           <img src={useBaseUrl("img/tech_symposium.jpg")} alt="Event" />
         </div>
         <div class="col col--6 centered">
@@ -125,7 +125,7 @@ function Membership() {
             professional outlook
           </p>
         </div>
-        <div class="col col--6">
+        <div class="col col--6 fixed-img">
           <img src={useBaseUrl("img/membership.jpg")} alt="Membership" />
         </div>
       </div>
@@ -137,7 +137,7 @@ function Meeting() {
   return (
     <section class="">
       <div class="row">
-        <div class="col col--6 section-img">
+        <div class="col col--6 fixed-img">
           <img src={useBaseUrl("img/meeting.png")} alt="Meetings" />
         </div>
         <div class="col col--6 centered">
