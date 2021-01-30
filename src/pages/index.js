@@ -186,40 +186,24 @@ function Home() {
               </div>
             </div>
             <div class="col col--6 centered">
-              {/* <a
-                class="twitter-timeline"
-                data-lang="en"
-                data-width="400"
-                data-height="450"
-                data-theme="dark"
-                href="https://twitter.com/calpolyswift?ref_src=twsrc%5Etfw"
-              >
-                Tweets by calpolyswift
-              </a>
+              <div class="container-twitter">
+                <a
+                  class="twitter-timeline"
+                  href="https://twitter.com/calpolyswift"
+                  data-tweet-limit="1"
+                  data-width=""
+                  data-chrome="nofooter noborders"
+                  data-theme="dark"
+                  data-lang="en"
+                >
+                  Tweets by calpolyswift
+                </a>
+              </div>
               <script
                 async
                 src="https://platform.twitter.com/widgets.js"
                 charset="utf-8"
-              ></script> */}
-
-              {/* <div class="container-background"> */}
-                <div class="container-twitter">
-                  <a
-                    class="twitter-timeline"
-                    href="https://twitter.com/calpolyswift"
-                    data-tweet-limit="1"
-                    data-width=""
-                    data-chrome="nofooter noborders"
-                    data-theme="dark"
-                    data-lang="en"
-                  >
-                    Tweets by calpolyswift
-                  </a>
-                </div>
-                <script async src="https://platform.twitter.com/widgets.js" 
-                  charset="utf-8"></script>
-              {/* </div> */}
-
+              ></script>
             </div>
           </div>
         </div>
