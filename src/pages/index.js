@@ -74,7 +74,7 @@ function Competition() {
   return (
     <section class="">
       <div class="row">
-        <div class="col col--6 centered">
+        <div class="col col--6 centered padded">
           <h2 class="">COMPETITION</h2>
           <p class="text--justify">
             Take your skill to the next level with challenges that put you up
