@@ -2,13 +2,13 @@ module.exports = {
   title: 'SWIFT',
   tagline: 'Students With an Interest in the Future of Technology',
   // tagline: 'STUDENTS WITH AN INTEREST IN THE FUTURE OF TECHNOLOGY',
-  url: 'https://michulee.github.io',
+  url: 'https://cfalucho.github.io',
   baseUrl: '/project-creatine/', /* for production development */
   // baseUrl: '/', /* for local development */
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/SWIFT_favicon.ico',
-  organizationName: 'michulee', // Usually your GitHub org/user name.
+  organizationName: 'cfalucho', // Usually your GitHub org/user name.
   projectName: 'project-creatine', // Usually your repo name.
   themeConfig:
    {
