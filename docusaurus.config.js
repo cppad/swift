@@ -3,8 +3,8 @@ module.exports = {
   tagline: 'Students With an Interest in the Future of Technology',
   // tagline: 'STUDENTS WITH AN INTEREST IN THE FUTURE OF TECHNOLOGY',
   url: 'https://michulee.github.io',
-  baseUrl: '/project-creatine/', /* for production development */
-  // baseUrl: '/', /* for local development */
+  // baseUrl: '/project-creatine/', /* for production development */
+  baseUrl: '/', /* for local development */
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/SWIFT_favicon.ico',
