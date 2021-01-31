@@ -113,7 +113,7 @@
 
 /* NAVBAR */
 .navbar__logo{
-  height: 60px;
+  height: 3rem;
 }
 
 .navbar {
@@ -121,12 +121,14 @@
   --ifm-navbar-background-color: var(--color-black) !important;
   /* --ifm-navbar-link-color: #306CCE; */
   /* --ifm-navbar-link-hover-color: #306CCE; */
+  padding: 1rem 0;
+  height: unset;
 }
 
 .navbar .navbar__items {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 /* DROPDOWN LINK AFTER CLICK */
