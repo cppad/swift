@@ -204,7 +204,7 @@ function Home() {
                 </a> */}
 
                 {/* Single Twitter tweet */}
-                {/* <blockquote class="twitter-tweet" data-cards="hidden" data-theme="light" data-lang="en" data-dnt="true" data-conversation="none">
+                <blockquote class="twitter-tweet" data-cards="hidden" data-theme="light" data-lang="en" data-dnt="true" data-conversation="none">
                   <p lang="en" dir="ltr">Friday workshop‼️
                     <br/><br/>
                     “WireGuard VPN installation walk-through” ft. Louie Hernandez
@@ -218,10 +218,10 @@ function Home() {
                     &mdash; Cal Poly SWIFT (@calpolyswift) 
                     <a href="https://twitter.com/calpolyswift/status/1250909646992207872?ref_src=twsrc%5Etfw">April 16, 2020</a>
                 </blockquote> 
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> */}
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
                 {/* Instagram Post */}
-                <blockquote className="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CKfj77PFKc1/?utm_source=ig_embed&utm_campaign=loading" data-instgrm-version={13} style={{"background":"#fff","border":"0","border-radius":"3px","box-shadow":"0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15)","margin":"1px","max-width":"540px","min-width":"326px","padding":"0","width":"calc(100% - 2px)"}}>
+                {/* <blockquote className="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CKfj77PFKc1/?utm_source=ig_embed&utm_campaign=loading" data-instgrm-version={13} style={{"background":"#fff","border":"0","border-radius":"3px","box-shadow":"0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15)","margin":"1px","max-width":"540px","min-width":"326px","padding":"0","width":"calc(100% - 2px)"}}>
                   <div style={{"padding":"16px"}}>
                     <a href="https://www.instagram.com/p/CKfj77PFKc1/?utm_source=ig_embed&utm_campaign=loading" style={{"background":"#ffffff","line-height":"0","padding":"0 0","-webkit-text-align":"center","text-align":"center","-webkit-text-decoration":"none","text-decoration":"none","width":"100%"}} target="_blank">
                       <div style={{"display":"flex","-webkit-flex-direction":"row","-ms-flex-direction":"row","flex-direction":"row","-webkit-align-items":"center","-webkit-box-align":"center","-ms-flex-align":"center","align-items":"center"}}>
@@ -273,7 +273,7 @@ function Home() {
                     </p>
                   </div>
                 </blockquote>
-                <script async src="//www.instagram.com/embed.js"></script>
+                <script async src="//www.instagram.com/embed.js"></script> */}
 
               </div>
             </div>

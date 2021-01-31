@@ -88,7 +88,7 @@
 
 /* TWITTER */
 .container-twitter {
-  /* width: 100%; */
+  max-width: 300px;
   /* height: 400px; */
   /* overflow: scroll; */
   border: 1rem solid;
