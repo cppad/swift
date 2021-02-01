@@ -35,6 +35,9 @@
   --ifm-dropdown-background-color: var(--color-black);
   --ifm-dropdown-hover-background-color: var(--ifm-background-surface-color);
 
+  /* Hero Banner */
+  --ifm-hero-background-color: var(--color-black) !important;
+
   /* URL Link */
   --ifm-link-color: var(--color-blue-light);
   /* --ifm-link-hover-color: red; */
@@ -151,15 +154,57 @@ h2 a,
   padding: 0 var(--ifm-pre-padding);
 }
 
-/* Hero Banner */
-.hero-banner {
+/* HERO BANNER */
+.hero--primary {
+  /* background: (0,0,0,0.5); */
+}
+
+/* Hero Banner - Solid*/
+/* .hero-banner {
   height: 75vh;
   --ifm-hero-text-color: var(--color-white);
   background-color: var(--color-black);
   text-align: center;
+} */
+
+
+.hero-container {
+  height: 75vh;
+  position: relative;
 }
 
+/* Hero Banner - <img> in HTML - not responsive*/
+.hero-image {
+  opacity: 0.5;
+  width: 100%;
+  /* max-height: 75vh; */
+  /* height: fit-content; */
+  height: 100%;
+  object-fit: cover;
+  /* position: relative; */
+}
 
+/* is reponsive but yucky image path and opacity will make children (hero-text) dim as well*/
+/* Hero Banner - img in CSS */
+.hero-banner {
+  /* background-image: url(../../static/img/banner.jpg); */
+  background-size: cover;
+  height: 75vh;
+  --ifm-hero-text-color: white;
+  background-color: var(--color-black);
+  position: relative;
+}
+
+.hero-container .row {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.opacity {
+  /* opacity: 0.5; */
+}
 
 /* Hero Banner Text */
 .hero-text {

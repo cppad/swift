@@ -162,7 +162,14 @@ function Home() {
       title={`Welcome to ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <header className={clsx("hero hero--primary hero-banner")}>
+      {/* hero hero--primary hero-banner opacity*/}
+      <header className={clsx("hero-container")}>
+        <img
+          class="hero-image"
+          src={useBaseUrl('img/banner.jpg')}
+          alt="Image alt text"
+          title="Logo Title Text 1"
+        />
         <div className="container hero-text">
           <div class="row">
             <div class="col col--6 centered">
@@ -187,7 +194,6 @@ function Home() {
             </div>
             <div class="col col--6 centered">
               <div class="container-twitter">
-
                 {/* Twitter timeline */}
                 {/* <a
                   class="twitter-timeline"
@@ -204,21 +210,42 @@ function Home() {
                 </a> */}
 
                 {/* Single Twitter tweet */}
-                <blockquote class="twitter-tweet" data-cards="hidden" data-theme="light" data-lang="en" data-dnt="true" data-conversation="none">
-                  <p lang="en" dir="ltr">Friday workshop‼️
-                    <br/><br/>
-                    “WireGuard VPN installation walk-through” ft. Louie Hernandez
-                    <br/><br/>
-                    Zoom link: 
-                    <a href="https://t.co/zSvyK9VEQ5">https://t.co/zSvyK9VEQ5</a> 
-                    <br/>
-                    (Password announced later) 
-                    <a href="https://t.co/OwWnFtTnXy">pic.twitter.com/OwWnFtTnXy</a>
+                <blockquote
+                  class="twitter-tweet"
+                  data-cards="hidden"
+                  data-theme="light"
+                  data-lang="en"
+                  data-dnt="true"
+                  data-conversation="none"
+                >
+                  <p lang="en" dir="ltr">
+                    Friday workshop‼️
+                    <br />
+                    <br />
+                    “WireGuard VPN installation walk-through” ft. Louie
+                    Hernandez
+                    <br />
+                    <br />
+                    Zoom link:
+                    <a href="https://t.co/zSvyK9VEQ5">
+                      https://t.co/zSvyK9VEQ5
+                    </a>
+                    <br />
+                    (Password announced later)
+                    <a href="https://t.co/OwWnFtTnXy">
+                      pic.twitter.com/OwWnFtTnXy
+                    </a>
                   </p>
-                    &mdash; Cal Poly SWIFT (@calpolyswift) 
-                    <a href="https://twitter.com/calpolyswift/status/1250909646992207872?ref_src=twsrc%5Etfw">April 16, 2020</a>
-                </blockquote> 
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  &mdash; Cal Poly SWIFT (@calpolyswift)
+                  <a href="https://twitter.com/calpolyswift/status/1250909646992207872?ref_src=twsrc%5Etfw">
+                    April 16, 2020
+                  </a>
+                </blockquote>
+                <script
+                  async
+                  src="https://platform.twitter.com/widgets.js"
+                  charset="utf-8"
+                ></script>
 
                 {/* Instagram Post */}
                 {/* <blockquote className="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CKfj77PFKc1/?utm_source=ig_embed&utm_campaign=loading" data-instgrm-version={13} style={{"background":"#fff","border":"0","border-radius":"3px","box-shadow":"0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15)","margin":"1px","max-width":"540px","min-width":"326px","padding":"0","width":"calc(100% - 2px)"}}>
@@ -274,7 +301,6 @@ function Home() {
                   </div>
                 </blockquote>
                 <script async src="//www.instagram.com/embed.js"></script> */}
-
               </div>
             </div>
           </div>
