@@ -164,12 +164,12 @@ function Home() {
     >
       {/* hero hero--primary hero-banner opacity*/}
       <header className={clsx("hero-container")}>
-        <img
+        {/* <img
           class="hero-image"
           src={useBaseUrl('img/banner.jpg')}
           alt="Image alt text"
           title="Logo Title Text 1"
-        />
+        /> */}
         <div className="container hero-text">
           <div class="row">
             <div class="col col--6 centered">
