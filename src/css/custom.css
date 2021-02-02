@@ -89,9 +89,10 @@
 
 
 /* SCROLLBAR */
+/* FireFox: can't resize scrollbar, can't use border-radius on scrollbar */
 * {
   scrollbar-width: thin;
-  scrollbar-color: blue orange;
+  scrollbar-color:#A8A8A8 var(--color-black);
 }
 
 *::-webkit-scrollbar {
