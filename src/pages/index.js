@@ -41,7 +41,7 @@ function Competition() {
     <section class="">
       <div class="row">
         <div class="col col--6 centered side-padding">
-          <h2 class="">COMPETITION</h2>
+          <h2 class="">Competition</h2>
           <p class="text--justify">
             Take your skill to the next level with challenges that put you up
             against the best in the field. Apply your skills building defensive
@@ -65,7 +65,7 @@ function Event() {
           <img src={useBaseUrl("img/tech_symposium.jpg")} alt="Event" />
         </div>
         <div class="col col--6 centered side-padding">
-          <h2 class="">EVENTS</h2>
+          <h2 class="">Events</h2>
           <p class="text--justify">
             We hold basic and advanced weekly workshops cover topics such as
             using Linux, internet of things, and network forensics, an annual
@@ -83,7 +83,7 @@ function Membership() {
     <section class="">
       <div class="row">
         <div class="col col--6 centered side-padding">
-          <h2 class="">MEMBERSHIP</h2>
+          <h2 class="">Membership</h2>
           <p class="text--justify">
             If you like learning new topics, solving problems, breaking things,
             being with fellow hackers, get involved! Our membership provides you
@@ -107,7 +107,7 @@ function Meeting() {
           <img src={useBaseUrl("img/meeting.png")} alt="Meetings" />
         </div>
         <div class="col col--6 centered side-padding">
-          <h2 class="">MEETINGS</h2>
+          <h2 class="">Meetings</h2>
           <p class="text--justify">
             Come to our weekly meetings where we present and discuss topics
             focusing on cyber security, networking, system administration, and

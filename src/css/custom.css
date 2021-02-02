@@ -243,6 +243,7 @@ h2 a,
 .button--secondary:hover {
   color: var(--color-white);
   background-color: var(--color-blue-light) !important;
+  border-color: var(--color-blue-light);
 }
 
 /* Hero Banner Title */
