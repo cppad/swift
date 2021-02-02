@@ -171,8 +171,7 @@ h2 a,
 .hero-container {
   height: 75vh;
   position: relative;
-
-
+  /* width: 50%; */
 }
 
 /* Hero Banner - <img> in HTML - not responsive*/
@@ -188,13 +187,17 @@ h2 a,
 
 /* is reponsive but yucky image path and opacity will make children (hero-text) dim as well*/
 /* Hero Banner - img in CSS */
-.hero-banner {
-  /* background-image: url(../../static/img/banner.jpg); */
+/* .hero-banner {
+  background-image: url(../../static/img/banner.jpg);
   background-size: cover;
   height: 75vh;
   --ifm-hero-text-color: white;
   background-color: var(--color-black);
   position: relative;
+} */
+
+.hero-banner {
+  width: 40%;
 }
 
 .hero-container .row {
@@ -204,20 +207,15 @@ h2 a,
   transform: translate(-50%, -50%);
 }
 
-.opacity {
-  /* opacity: 0.5; */
-}
-
 /* Hero Banner Text */
 .hero-text {
   font-family: monospace, "Courier New", "Courier";
+  width: 300px;
 }
 
 /* Hero Banner Button */
 .button--secondary {
-  /* background-color: #E98400; */
-  /* outline-color: #E98400; */
-  border-color: var(--color-blue-light);
+  border: 0.2rem solid var(--color-blue-light);
   --ifm-font-color-base: var(--color-blue-light);
 }
 
