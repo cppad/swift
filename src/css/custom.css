@@ -69,6 +69,12 @@
   align-items: center !important;
 }
 
+/* FONTAWESOME */
+.core-icons {
+  font-size: 15rem;
+}
+
+
 /* SCROLLBAR */
 * {
   scrollbar-width: thin;

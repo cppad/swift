@@ -5,66 +5,29 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faDatabase, faHandshake, faShieldAlt} from '@fortawesome/free-solid-svg-icons'
 
-function News() {
+function CoreValues() {
   return (
     <section class="news">
-      <h2 class="news">Latest Activity</h2>
+      {/* <h2 class="news">Latest Activity</h2> */}
       <div class="row">
-        <div class="col col--4">
-          <div class="card-demo">
-            <div class="card">
-              <div class="card__image">
-                <img
-                  src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
-                  alt="Image alt text"
-                  title="Logo Title Text 1"
-                />
-              </div>
-              <div class="card__body">
-                <h4>Quaco Lighthouse</h4>
-                <small>
-                  The Quaco Head Lighthouse is a well maintained lighthouse
-                  close to St. Martins. It is a short, beautiful walk to the
-                  lighthouse along the seashore. The Quaco Head Lighthouse is a
-                  well maintained lighthouse close to St. Martins.
-                </small>
-              </div>
-              <div class="card__footer">
-                <button class="button button--primary button--block">
-                  Visit
-                </button>
-              </div>
-            </div>
-          </div>
+        <div class="col col--4 centered">
+          {/* <FontAwesomeIcon icon={faHandshake} color="orange" size="xs"/> */}
+          {/* <FontAwesomeIcon icon={faHandshake} color="orange" size="6x"/> */}
+          {/* <FontAwesomeIcon icon={faHandshake} className={clsx("test")} /> */}
+          <FontAwesomeIcon icon={faHandshake} className={"core-icons"} />
+          <h2>Networking</h2>
         </div>
-        <div class="col col--4">
-          <div class="card-demo">
-            <div class="card">
-              <div class="card__image">
-                <img
-                  src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
-                  alt="Image alt text"
-                  title="Logo Title Text 1"
-                />
-              </div>
-              <div class="card__body">
-                <h4>Quaco Lighthouse</h4>
-                <small>
-                  The Quaco Head Lighthouse is a well maintained lighthouse
-                  close to St. Martins. It is a short, beautiful walk to the
-                  lighthouse along the seashore.
-                </small>
-              </div>
-              <div class="card__footer">
-                <button class="button button--primary button--block">
-                  Visit
-                </button>
-              </div>
-            </div>
-          </div>
+        <div class="col col--4 centered">
+          <FontAwesomeIcon icon={faShieldAlt} className={"core-icons"} />
+          <h2>Cybersecurity</h2>
         </div>
-        <div class="col col--4">nothing</div>
+        <div class="col col--4 centered">
+          <FontAwesomeIcon icon={faDatabase} className={"core-icons"} />
+          <h2>System Admin</h2>
+        </div>
       </div>
     </section>
   );
@@ -197,6 +160,11 @@ function Home() {
       </header>
 
       <main>
+        <div class="section ">
+          <section class="container">
+            <CoreValues />
+          </section>
+        </div>
         <div class="section section-background-color">
           <section class="container">
             <Competition />
