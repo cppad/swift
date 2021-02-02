@@ -57,6 +57,18 @@
   --ifm-background-surface-color: #353535 !important;
 }
 
+.core-values .core-icons {
+  margin-bottom: 3rem;
+}
+
+.core-values h2 {
+  font-size: 2rem;
+}
+
+.core-values p {
+  /* font-size: 2rem; */
+}
+
 /* STRUCTURE */
 .col {
   border-style: none;
@@ -71,7 +83,8 @@
 
 /* FONTAWESOME */
 .core-icons {
-  font-size: 15rem;
+  font-size: 10rem;
+
 }
 
 
@@ -202,8 +215,10 @@ h2 a,
   position: relative;
 } */
 
+/* doesn't do anything */
 .hero-banner {
-  width: 40%;
+  /* can't use % for width, because width isn't explicit */
+  width: 35vw !important;
 }
 
 .hero-container .row {
@@ -221,8 +236,8 @@ h2 a,
 
 /* Hero Banner Button */
 .button--secondary {
-  border: 0.2rem solid var(--color-blue-light);
-  --ifm-font-color-base: var(--color-blue-light);
+  border: 0.2rem solid var(--color-white);
+  --ifm-font-color-base: var(--color-white);
 }
 
 .button--secondary:hover {
@@ -249,6 +264,9 @@ h2 a,
 /* SECTION */
 .section {
   padding: 5rem 0;
+  height: 600px;
+  display: flex;
+  align-items: center;
 }
 
 .section-background-color {
@@ -263,6 +281,7 @@ section h2 {
 
 section p {
   font-size: 1.2rem;
+  text-align: justify;
 }
 
 .fixed-img {

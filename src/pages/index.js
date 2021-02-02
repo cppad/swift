@@ -12,21 +12,24 @@ function CoreValues() {
   return (
     <section class="news">
       {/* <h2 class="news">Latest Activity</h2> */}
-      <div class="row">
+      <div class="row core-values">
         <div class="col col--4 centered">
           {/* <FontAwesomeIcon icon={faHandshake} color="orange" size="xs"/> */}
           {/* <FontAwesomeIcon icon={faHandshake} color="orange" size="6x"/> */}
           {/* <FontAwesomeIcon icon={faHandshake} className={clsx("test")} /> */}
           <FontAwesomeIcon icon={faHandshake} className={"core-icons"} />
           <h2>Networking</h2>
+          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
         </div>
         <div class="col col--4 centered">
           <FontAwesomeIcon icon={faShieldAlt} className={"core-icons"} />
           <h2>Cybersecurity</h2>
+          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
         </div>
         <div class="col col--4 centered">
           <FontAwesomeIcon icon={faDatabase} className={"core-icons"} />
           <h2>System Admin</h2>
+          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
         </div>
       </div>
     </section>
