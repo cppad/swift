@@ -84,7 +84,6 @@
 /* FONTAWESOME */
 .core-icons {
   font-size: 10rem;
-
 }
 
 
@@ -175,46 +174,18 @@ h2 a,
 }
 
 /* HERO BANNER */
-.hero--primary {
-  /* background: (0,0,0,0.5); */
-}
-
-/* Hero Banner - Solid*/
-/* .hero-banner {
-  height: 75vh;
-  --ifm-hero-text-color: var(--color-white);
-  background-color: var(--color-black);
-  text-align: center;
-} */
-
-
 .hero-container {
-  height: 75vh;
+  height: 85vh;
   position: relative;
-  /* width: 50%; */
 }
 
 /* Hero Banner - <img> in HTML - not responsive*/
 .hero-image {
   opacity: 0.5;
   width: 100%;
-  /* max-height: 75vh; */
-  /* height: fit-content; */
   height: 100%;
   object-fit: cover;
-  /* position: relative; */
 }
-
-/* is reponsive but yucky image path and opacity will make children (hero-text) dim as well*/
-/* Hero Banner - img in CSS */
-/* .hero-banner {
-  background-image: url(../../static/img/banner.jpg);
-  background-size: cover;
-  height: 75vh;
-  --ifm-hero-text-color: white;
-  background-color: var(--color-black);
-  position: relative;
-} */
 
 /* doesn't do anything */
 .hero-banner {
