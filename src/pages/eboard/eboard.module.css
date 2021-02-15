@@ -1,0 +1,30 @@
+.title {
+    font-size: 50px;
+}
+section {
+    margin: 5rem 0;
+}
+
+.col {
+    width: max-content;
+}
+
+/* .centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+} */
+
+.img {
+    height: 70%;
+    width: 30%;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.eboard-socials{
+    font-size: 15px;
+}

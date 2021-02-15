@@ -1,0 +1,320 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@import url("https://fonts.googleapis.com/css2?&family=Alatsi&display=swap");
+@import url("https://fonts.googleapis.com/css2?&family=Audiowide&display=swap");
+
+:root {
+  --ifm-color-primary: var(--color-blue-light);
+
+  /* website background color */
+  --ifm-background-color: var(--color-black) !important;
+
+  /* font color */
+  --ifm-font-color-base: var(--color-white);
+
+  /* <code> color */
+  --ifm-code-font-size: 95%;
+
+  /* CUSTOM COLORS */
+  --color-black: #1f1f1f;
+  --color-gray: #575757;
+  --color-gray-dark: #484a4c;
+  --color-card-gray: #292F33;
+  --color-white: #e4e4e4;
+  --color-orange: #e98400;
+  --color-blue: #033773;
+  --color-blue-light: #3b86ff;
+
+  /* Nav Dropdown */
+  --ifm-dropdown-background-color: var(--color-black);
+  --ifm-dropdown-hover-background-color: var(--ifm-background-surface-color);
+
+  /* Hero Banner */
+  --ifm-hero-background-color: var(--color-black) !important;
+
+  /* URL Link */
+  --ifm-link-color: var(--color-blue-light);
+  /* --ifm-link-hover-color: red; */
+
+  /* Docs */
+  /* h1,h2,h3,h4,h5,h6 colors */
+  /* --ifm-heading-color: #000; */
+
+  /*sidebar TOC vertical line color*/
+  --ifm-toc-border-color: transparent;
+
+  /* TABLE */
+  --ifm-table-stripe-background: var(--color-gray-dark);
+
+  /* CARD */
+  /*card background color*/
+  --ifm-background-surface-color: #353535 !important;
+}
+
+.core-values .core-icons {
+  margin-bottom: 3rem;
+}
+
+.core-values h2 {
+  font-size: 2rem;
+}
+
+
+
+/* STRUCTURE */
+.col {
+  border-style: none;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* FONTAWESOME */
+.core-icons {
+  font-size: 10rem;
+
+}
+
+
+/* SCROLLBAR */
+/* FireFox: can't resize scrollbar, can't use border-radius on scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color:#A8A8A8 var(--color-black);
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #A8A8A8;
+  border-radius: 20px;
+  border: 3px solid #A8A8A8;
+}
+
+*::-webkit-scrollbar-corner {
+  color: var(--color-card-gray);
+}
+
+/* TWITTER */
+.container-twitter {
+  max-width: 300px;
+  /* height: 400px; */
+  /* overflow: scroll; */
+  border: 1rem solid;
+  border-image: linear-gradient(to right, #3b86ff, #3adeff) 1;
+  /* background-color: #000000; */
+  background-image: linear-gradient(90deg, #3b86ff 0%, #3adeff 100%);
+}
+
+/* TOC SIDEBAR */
+.table-of-contents {
+  font-size: 0.9rem;
+}
+
+/*right TOC sidebar link color*/
+.table-of-contents__link {
+  --ifm-toc-link-color: rgb(96, 103, 112);
+}
+
+/*left TOC sidebar link color*/
+.menu__link {
+  --ifm-menu-color: rgb(96, 103, 112);
+}
+
+/* NAVBAR */
+.navbar__logo{
+  height: 3rem;
+}
+
+.navbar {
+  opacity: 0.9;
+  --ifm-navbar-background-color: var(--color-black) !important;
+  /* --ifm-navbar-link-color: #306CCE; */
+  /* --ifm-navbar-link-hover-color: #306CCE; */
+  padding: 1rem 0;
+  height: unset;
+}
+
+.navbar .navbar__items {
+  display: flex;
+  justify-content: center;
+}
+
+/* DROPDOWN LINK AFTER CLICK */
+.dropdown__link--active {
+  background-color: transparent;
+}
+
+/* PAGINATION (DOCS) */
+h2 a,
+.avatar a,
+.pagination-nav__link {
+  color: var(--color-blue-light);
+}
+
+/* DOCUSAURUS */
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+/* HERO BANNER */
+/* .hero--primary {
+  /* background: (0,0,0,0.5); 
+} */
+
+/* Hero Banner - Solid*/
+/* .hero-banner {
+  height: 75vh;
+  --ifm-hero-text-color: var(--color-white);
+  background-color: var(--color-black);
+  text-align: center;
+} */
+
+
+.hero-container {
+  height: 75vh;
+  position: relative;
+  /* width: 50%; */
+}
+
+/* Hero Banner - <img> in HTML - not responsive*/
+.hero-image {
+  opacity: 0.5;
+  width: 100%;
+  /* max-height: 75vh; */
+  /* height: fit-content; */
+  height: 100%;
+  object-fit: cover;
+  /* position: relative; */
+}
+
+/* is reponsive but yucky image path and opacity will make children (hero-text) dim as well*/
+/* Hero Banner - img in CSS */
+/* .hero-banner {
+  background-image: url(../../static/img/banner.jpg);
+  background-size: cover;
+  height: 75vh;
+  --ifm-hero-text-color: white;
+  background-color: var(--color-black);
+  position: relative;
+} */
+
+/* doesn't do anything */
+.hero-banner {
+  /* can't use % for width, because width isn't explicit */
+  width: 35vw !important;
+}
+
+.hero-container .row {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Hero Banner Text */
+.hero-text {
+  font-family: monospace, "Courier New", "Courier";
+  width: 300px;
+}
+
+/* Hero Banner Button */
+.button--secondary {
+  border: 0.2rem solid var(--color-white);
+  --ifm-font-color-base: var(--color-white);
+}
+
+.button--secondary:hover {
+  color: var(--color-white);
+  background-color: var(--color-blue-light) !important;
+  border-color: var(--color-blue-light);
+}
+
+/* Hero Banner Title */
+/* .hero__title {
+  letter-spacing: 0.3em;
+  padding-left: 0.3em;
+  font-size: 5rem;
+  font-family: 'Audiowide', sans-serif;
+  text-shadow: 2px 2px 20px var(--color-black), 2px 2px 20px var(--color-black);
+} */
+
+/* Card */
+/* .card .button {
+  background-color: var(--color-blue-light);
+  border-color: var(--color-blue-light);
+  color: var(--color-white) !important;
+} */
+
+/* SECTION */
+.section {
+  padding: 5rem 0;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.section-background-color {
+  background-color: var(--color-gray-dark);
+  /* background-color: #033773; */
+}
+
+section h2 {
+  font-size: 3rem;
+  /* font-family: "Audiowide", sans-serif; */
+}
+
+section p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.fixed-img {
+  height: 400px;
+}
+
+.fixed-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.side-padding {
+  padding: 0 5rem !important;
+}
+
+/* FOOTER */
+.footer {
+  /* background-color: var(--color-black); */
+  background-color: unset;
+}
+
+/* Laptop View */
+@media screen and (max-width: 1024px) {
+  .navbar .navbar__items {
+    justify-content: flex-start;
+  }
+
+  header img {
+    width: 70%;
+  }
+
+  .twitter-timeline {
+    display: none;
+  }
+}
