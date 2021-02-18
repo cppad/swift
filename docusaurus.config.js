@@ -2,14 +2,14 @@ module.exports = {
   title: 'SWIFT',
   tagline: 'Students With an Interest in the Future of Technology',
   // tagline: 'STUDENTS WITH AN INTEREST IN THE FUTURE OF TECHNOLOGY',
-  url: 'https://cfalucho.github.io',
-  baseUrl: '/project-creatine/', /* for production development */
+  url: 'https://github.com/cppad',
+  baseUrl: '/swift/', /* for production development */
   // baseUrl: '/', /* for local development */
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/SWIFT_favicon.ico',
-  organizationName: 'cfalucho', // Usually your GitHub org/user name.
-  projectName: 'project-creatine', // Usually your repo name.
+  organizationName: 'cppad', // Usually your GitHub org/user name.
+  projectName: 'swift', // Usually your repo name.
   themeConfig:
    {
     navbar: {
