@@ -2,7 +2,7 @@ module.exports = {
   title: 'SWIFT',
   tagline: 'Students With an Interest in the Future of Technology',
   // tagline: 'STUDENTS WITH AN INTEREST IN THE FUTURE OF TECHNOLOGY',
-  url: 'https://github.com/cppad',
+  url: 'https://cppad.github.io',
   baseUrl: '/swift/', /* for production development */
   // baseUrl: '/', /* for local development */
   onBrokenLinks: 'ignore',
