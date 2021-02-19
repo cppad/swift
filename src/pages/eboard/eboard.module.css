@@ -17,14 +17,19 @@ section {
 } */
 
 .img {
-    height: 70%;
-    width: 30%;
+    height: 65%;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(109, 109, 109, 0.4);
+    margin-bottom: 10px;
 }
 
 p {
     margin-bottom: 0 !important;
 }
 
-.eboard-socials{
-    font-size: 15px;
+.socials{
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(155, 155, 155);
 }
+

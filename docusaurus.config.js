@@ -21,20 +21,25 @@ module.exports = {
         src: 'img/logo_only_white.png',
       },
       items: [
-        {to: 'about/about', label: 'About', position: 'left'},
         {
-          label: 'Membership',
+          to: 'about/about', 
+          label: 'About', 
           position: 'left',
           items: [
             {
-              to: 'eboard/eboard', 
-              label: 'Eboard'
+              to: 'about/about',
+              label: 'About SWIFT'
             },
             {
-              to: 'membership/membership', 
-              label: 'Membership'
+              to: 'eboard/eboard',
+              label: 'EBoard'
             }
-          ],
+          ]
+        },
+        {
+          to: 'membership/membership',
+          label: 'Membership',
+          position: 'left',
         },
         // {to: 'events', label: 'Events', position: 'left'},
         

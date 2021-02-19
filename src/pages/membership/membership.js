@@ -14,7 +14,7 @@ function Membership() {
             fontSize: '20px',
           }}>
           <p className={styles.title}>
-            Our Team
+   
           </p>
         </div>
         <main>
