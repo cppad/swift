@@ -60,10 +60,6 @@
   --ifm-background-surface-color: #353535 !important;
 }
 
-/* Override Layout */
-.row .col {
-  flex-basis: 0 !important;
-}
 .red {
   color: red;
 }
