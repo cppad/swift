@@ -2,7 +2,8 @@
     font-size: 50px;
 }
 section {
-    margin: 5rem 0;
+    /* margin: 5rem 0; */
+    color: red;
 }
 
 .col {
