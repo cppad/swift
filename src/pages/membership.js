@@ -8,15 +8,15 @@ import styles from "./styles.module.css";
 
 function Steps() {
   return (
-    <div className={styles.sectionPadding}>
-      <div className="container">
-        <div className="row">
-          <div className="col centered padding--lg">
+    <div class={styles.sectionPadding}>
+      <div class="container">
+        <div class="row">
+          <div class="col centered padding--lg">
             <h2>STEP 1</h2>
             <p>Fill out the Google Form</p>
-            <div className={styles.buttons}>
+            <div class={styles.buttons}>
               <Link
-                className={clsx(
+                class={clsx(
                   "button button--primary button--gray-dark button-round button--lg",
                   styles.getStarted
                 )}
@@ -26,12 +26,12 @@ function Steps() {
               </Link>
             </div>
           </div>
-          <div className="col centered padding--lg">
+          <div class="col centered padding--lg">
             <h2>STEP 1</h2>
             <p>Fill out the Google Form</p>
-            <div className={styles.buttons}>
+            <div class={styles.buttons}>
               <Link
-                className={clsx(
+                class={clsx(
                   "button button--primary button--gray-dark button-round button--lg",
                   styles.getStarted
                 )}
@@ -41,12 +41,12 @@ function Steps() {
               </Link>
             </div>
           </div>
-          <div className="col centered padding--lg">
+          <div class="col centered padding--lg">
             <h2>STEP 1</h2>
             <p>Fill out the Google Form</p>
-            <div className={styles.buttons}>
+            <div class={styles.buttons}>
               <Link
-                className={clsx(
+                class={clsx(
                   "button button--primary button--gray-dark button-round button--lg",
                   styles.getStarted
                 )}
@@ -64,23 +64,23 @@ function Steps() {
 
 function Benefits() {
   return (
-    <div className={clsx(styles.sectionPadding, "section-background-color")}>
-      <div className="container">
-        <h2 className="centered">Benefits</h2>
-        <div className={"row"}>
-          <div className={"col col--4 centered"}>
+    <div class={clsx(styles.sectionPadding, "section-background-color")}>
+      <div class="container">
+        <h2 class="centered">Benefits</h2>
+        <div class={"row"}>
+          <div class={"col col--4 centered"}>
             <h2 class="text--center">Community</h2>
             <div>
               <p>- Be part of a large community of students spanning over 20 years.</p>
               <p>- Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
             </div>
           </div>
-          <div className={"col col--4"}>
-            <div className={clsx(styles.logoFixedHeight)}>
+          <div class={"col col--4"}>
+            <div class={clsx(styles.logoFixedHeight)}>
               <img src={useBaseUrl("img/logo_only_white.png")} alt="Event" />
             </div>
           </div>
-          <div className={"col col--4 centered"}>
+          <div class={"col col--4 centered"}>
             <h2 class="text--center">???????</h2>
             <div>
               <p>- Be part of a large community of students spanning over 20 years.</p>
@@ -88,15 +88,15 @@ function Benefits() {
             </div>
           </div>
         </div>
-        <div className={"row"}>
-          <div className={"col col--4"}>
+        <div class={"row"}>
+          <div class={"col col--4"}>
             <h2 class="text--center">Giveaways</h2>
             <div>
               <p>- Free food at meetings</p>
               <p>- Free T-Shirts, Stickers, Webcam Covers, and Other Swag</p>
             </div>
           </div>
-          <div className={"col col--4"}>
+          <div class={"col col--4"}>
             <h2 class="text--center">Events</h2>
             <div>
               <p>- Access and discounts to conferences and events</p>
@@ -105,7 +105,7 @@ function Benefits() {
               <p>- Go on tours to organizations focusing on System Administration and Cyber Security</p>
             </div>
           </div>
-          <div className={"col col--4"}>
+          <div class={"col col--4"}>
             <h2 class="text--center">Competition</h2>
             <div>
               <p>Participate in competitions:</p>
@@ -121,12 +121,12 @@ function Benefits() {
 
 function Description() {
   return (
-    <div className={styles.sectionPadding}>
-      <div className="container">
-        {/* <div className={styles.description}>  */}
-        <div className={clsx(styles.description, "margin-centered padding--lg")}>
+    <div class={styles.sectionPadding}>
+      <div class="container">
+        {/* <div class={styles.description}>  */}
+        <div class={clsx(styles.description, "margin-centered padding--lg")}>
           <p>
-            <span className={styles.firstWord}>SWIFT</span> is a way of moving your college career to the next level.
+            <span class={styles.firstWord}>SWIFT</span> is a way of moving your college career to the next level.
             Joining is a three step process, but it should not take more then 10
             minutes. Membership allows you to participate in events and
             competitions, vote in elections and much more!
@@ -149,31 +149,31 @@ function Description() {
 
 function Quotes() {
   return (
-    <div className={clsx(styles.sectionPadding, "section-background-color")}>
-      <div className="container">
-        <div className="row padding--lg">
-          <div className={"col col--6 centered"}>
-            <div className={styles.quote}>
-              <p className={styles.quoteText}>
+    <div class={clsx(styles.sectionPadding, "section-background-color")}>
+      <div class="container">
+        <div class="row padding--lg">
+          <div class={"col col--6 centered"}>
+            <div class={styles.quote}>
+              <p class={styles.quoteText}>
                 Leverage agile frameworks to provide a robust synopsis for high
                 level overviews. Iterative approaches to corporate strategy foster
                 collaborative thinking to further the overall value proposition.
                 Organically grow the holistic world view of disruptive innovation
                 via workplace diversity and empowerment.
               </p>
-              <p className={"text--right text--bold"}>- John Doe, Alumni</p>
+              <p class={"text--right text--bold"}>- John Doe, Alumni</p>
             </div>
           </div>
-          <div className={"col col--6 centered"}>
-            <div className={styles.quote}>
-              <p className={styles.quoteText}>
+          <div class={"col col--6 centered"}>
+            <div class={styles.quote}>
+              <p class={styles.quoteText}>
                 Leverage agile frameworks to provide a robust synopsis for high
                 level overviews. Iterative approaches to corporate strategy foster
                 collaborative thinking to further the overall value proposition.
                 Organically grow the holistic world view of disruptive innovation
                 via workplace diversity and empowerment.
               </p>
-              <p className={"text--right text--bold"}>- John Doe, CS 3rd Year</p>
+              <p class={"text--right text--bold"}>- John Doe, CS 3rd Year</p>
             </div>
           </div>
         </div>

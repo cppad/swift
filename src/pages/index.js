@@ -10,24 +10,24 @@ import {faDatabase, faHandshake, faShieldAlt} from '@fortawesome/free-solid-svg-
 
 function CoreValues() {
   return (
-    <div className={clsx(styles.sectionPadding)}>
+    <div class={clsx(styles.sectionPadding)}>
       <section class="container">
         <div class="row core-values">
           <div class="col col--4 centered">
             {/* <FontAwesomeIcon icon={faHandshake} color="orange" size="xs"/> */}
             {/* <FontAwesomeIcon icon={faHandshake} color="orange" size="6x"/> */}
-            {/* <FontAwesomeIcon icon={faHandshake} className={clsx("test")} /> */}
-            <FontAwesomeIcon icon={faHandshake} className={"core-icons"} />
+            {/* <FontAwesomeIcon icon={faHandshake} class={clsx("test")} /> */}
+            <FontAwesomeIcon icon={faHandshake} class={"core-icons"} />
             <h2>Networking</h2>
             <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
           </div>
           <div class="col col--4 centered">
-            <FontAwesomeIcon icon={faShieldAlt} className={"core-icons"} />
+            <FontAwesomeIcon icon={faShieldAlt} class={"core-icons"} />
             <h2>Cybersecurity</h2>
             <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
           </div>
           <div class="col col--4 centered">
-            <FontAwesomeIcon icon={faDatabase} className={"core-icons"} />
+            <FontAwesomeIcon icon={faDatabase} class={"core-icons"} />
             <h2>System Admin</h2>
             <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
           </div>
@@ -39,7 +39,7 @@ function CoreValues() {
 
 function Competition() {
   return (
-    <div className={clsx(styles.sectionPadding, "section-background-color")}>
+    <div class={clsx(styles.sectionPadding, "section-background-color")}>
       <section class="container">
         <div class="row">
           <div class="col col--5 centered padding--lg">
@@ -62,7 +62,7 @@ function Competition() {
 
 function Event() {
   return (
-    <div className={clsx(styles.sectionPadding)}>
+    <div class={clsx(styles.sectionPadding)}>
       <section class="container">
         <div class="row">
           <div class="col col--7 fixed-img">
@@ -85,7 +85,7 @@ function Event() {
 
 function Membership() {
   return (
-    <div className={clsx(styles.sectionPadding, "section-background-color")}>
+    <div class={clsx(styles.sectionPadding, "section-background-color")}>
       <section class="container">
         <div class="row">
           <div class="col col--5 centered padding--lg">
@@ -108,7 +108,7 @@ function Membership() {
 
 function Meeting() {
   return (
-    <div className={clsx(styles.sectionPadding)}>
+    <div class={clsx(styles.sectionPadding)}>
       <section class="container">
         <div class="row">
           <div class="col col--7 fixed-img">
@@ -138,26 +138,26 @@ function Home() {
       description="Description will go into a meta tag in <head />"
     >
       {/* hero hero--primary hero-banner opacity*/}
-      <header className={clsx("hero-container")}>
+      <header class={clsx("hero-container")}>
         <img
           class="hero-image"
           src={useBaseUrl('img/banner.jpg')}
           alt="Image alt text"
           title="Logo Title Text 1"
         />
-        <div className="container hero-text">
+        <div class="container hero-text">
           <div class="row">
             <div class="col col--12 centered hero-banner">
-              {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
-              {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
+              {/* <h1 class="hero__title">{siteConfig.title}</h1> */}
+              {/* <p class="hero__subtitle">{siteConfig.tagline}</p> */}
               <img
                 src={useBaseUrl("img/logo_words_white.png")}
                 alt="Image alt text"
                 title="Logo Title Text 1"
               />
-              <div className={styles.buttons}>
+              <div class={styles.buttons}>
                 <Link
-                  className={clsx(
+                  class={clsx(
                     "button button--outline button--secondary button--lg",
                     styles.getStarted
                   )}
