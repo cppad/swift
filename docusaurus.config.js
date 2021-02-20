@@ -21,7 +21,6 @@ module.exports = {
         src: 'img/logo_only_white.png',
       },
       items: [
-        // root is at "pages/"
         {to: 'about', label: 'About', position: 'left'},
         {
           label: 'Membership',
@@ -79,15 +78,17 @@ module.exports = {
             },
           ],
         },
-
+        // {to: 'about', label: 'About', position: 'left'},
         {to: 'contact', label: 'Contact', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'right'},
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'right',
-        },
+        {to: 'blog/', label: 'Blog', position: 'right'},
+        {to: 'doc/', label: 'Docs', position: 'right'},
+        // {to: 'docs/doc1', label: 'Docs', position: 'right'},
+        // {
+        //   to: 'docs',
+        //   activeBasePath: 'docs/',
+        //   label: 'Docs',
+        //   position: 'right'
+        // },
       ],
     },
     footer: {

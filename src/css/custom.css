@@ -23,9 +23,9 @@
 
   /* CUSTOM COLORS */
   --color-black: #1f1f1f;
-  --color-gray: #575757;
+  --color-dark: #242526;
   --color-gray-dark: #484a4c;
-  --color-card-gray: #292F33;
+  --color-gray: #575757;
   --color-white: #e4e4e4;
   --color-orange: #e98400;
   --color-blue: #033773;
@@ -96,10 +96,6 @@
 /* COMMON */
 h1 {
   font-size: 2.2rem;
-}
-
-p {
-  margin-top: 1rem;
 }
 
 /* FONTAWESOME */
@@ -289,15 +285,14 @@ h2 a,
   /* background-color: #033773; */
 }
 
-section h2 {
+/* section h2 {
   font-size: 3rem;
-  /* font-family: "Audiowide", sans-serif; */
-}
+} */
 
-section p {
+/* section p {
   font-size: 1.2rem;
   text-align: justify;
-}
+} */
 
 .fixed-img {
   height: 400px;

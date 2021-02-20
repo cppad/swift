@@ -72,7 +72,7 @@ function Description() {
   return (
     <div className="container">
       {/* <div className={styles.description}>  */}
-      <div className={clsx(styles.description, "margin-centered")}> 
+      <div className={clsx(styles.description, "margin-centered padding--lg")}> 
         <p>
           <span className={styles.firstWord}>SWIFT</span> is a way of moving your college career to the next level.
           Joining is a three step process, but it should not take more then 10
@@ -97,7 +97,7 @@ function Description() {
 function Quotes() {
   return (
     <div className="container">
-      <div className="row">
+      <div className="row padding--lg">
         <div className={"col col--6 centered"}>
           <div className={styles.quote}>
             <p className={styles.quoteText}>
