@@ -136,9 +136,9 @@ function Eboard() {
             alignItems: 'center',
             height: '18vh',
           }}>
-          <p className={styles.title}>
+          <h1 >
             Our Team
-          </p>
+          </h1>
         
         </div>
 

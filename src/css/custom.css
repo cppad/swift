@@ -31,6 +31,9 @@
   --color-blue: #033773;
   --color-blue-light: #3b86ff;
 
+  /* CUSTOM BUTTONS */
+  /* --button--gray-dark: var(--color-gray-dark); */
+
   /* Nav Dropdown */
   --ifm-dropdown-background-color: var(--color-black);
   --ifm-dropdown-hover-background-color: var(--ifm-background-surface-color);
@@ -56,6 +59,15 @@
   /*card background color*/
   --ifm-background-surface-color: #353535 !important;
 }
+.button--gray-dark {
+  background-color: var(--color-gray-dark);
+  border-color: var(--color-gray-dark);
+}
+
+.button-round {
+  border-radius: 15px;
+}
+
 
 .core-values .core-icons {
   margin-bottom: 3rem;
@@ -64,8 +76,6 @@
 .core-values h2 {
   font-size: 2rem;
 }
-
-
 
 /* STRUCTURE */
 .col {
@@ -77,6 +87,11 @@
   flex-direction: column;
   justify-content: center !important;
   align-items: center !important;
+}
+
+/* COMMON */
+h1 {
+  font-size: 3rem;
 }
 
 /* FONTAWESOME */
@@ -234,12 +249,16 @@ h2 a,
 }
 
 /* Hero Banner Button */
+.button {
+  margin: 1rem 0;
+}
+
 .button--secondary {
   border: 0.2rem solid var(--color-white);
   --ifm-font-color-base: var(--color-white);
 }
 
-.button--secondary:hover {
+.button:hover {
   color: var(--color-white);
   background-color: var(--color-blue-light) !important;
   border-color: var(--color-blue-light);
@@ -305,7 +324,7 @@ section p {
 }
 
 /* Laptop View */
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .navbar .navbar__items {
     justify-content: flex-start;
   }
@@ -313,8 +332,12 @@ section p {
   header img {
     width: 70%;
   }
+}
 
-  .twitter-timeline {
-    display: none;
+@media only screen and (min-width: 320px) {
+  h1 {
+    font-size: 2rem;
   }
+
+
 }

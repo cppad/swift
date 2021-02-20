@@ -17,11 +17,12 @@ module.exports = {
       style: 'dark',
       hideOnScroll: true,
       logo: {
-        alt: 'My Site Logo',
+        alt: 'SWIFT',
         src: 'img/logo_only_white.png',
       },
       items: [
-        {to: 'about/about', label: 'About', position: 'left'},
+        // root is at "pages/"
+        {to: 'about', label: 'About', position: 'left'},
         {
           label: 'Membership',
           position: 'left',
@@ -31,7 +32,7 @@ module.exports = {
               label: 'Eboard'
             },
             {
-              to: 'membership/membership', 
+              to: 'membership', 
               label: 'Membership'
             }
           ],
