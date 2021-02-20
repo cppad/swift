@@ -5,6 +5,8 @@
  * and scoped locally.
  */
 
+@import "../css/custom.css";
+
 .heroBanner {
   /* padding: 4rem 0; */
   text-align: center;
@@ -36,4 +38,37 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+/* TEXT */
+.firstWord {
+  font-size: 1.5rem;
+  color: var(--color-blue-light);
+}
+
+.topSpacing {
+  margin-top: 1rem;
+}
+
+.description {
+  width: 80%;
+}
+
+/* anything larger than 1024px, put it in global */
+/* Laptop */
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .description {
+    width: unset;
+  }
+}
+
+/* Tablet and below*/
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
 }
