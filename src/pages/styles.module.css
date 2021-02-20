@@ -7,19 +7,24 @@
 
 @import "../css/custom.css";
 
-.heroBanner {
-  /* padding: 4rem 0; */
+/* .heroBanner {
+  padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  /* height: 500px; */
+  height: 500px;
   height: 70vh;
-}
+} */
 
-@media screen and (max-width: 966px) {
+/* @media screen and (max-width: 966px) {
   .heroBanner {
-    /* padding: 2rem; */
+    padding: 2rem;
   }
+} */
+
+/* LAYOUT */
+.topSpacing {
+  margin-top: 1rem;
 }
 
 .buttons {
@@ -46,12 +51,20 @@
   color: var(--color-blue-light);
 }
 
-.topSpacing {
-  margin-top: 1rem;
-}
-
 .description {
   width: 80%;
+}
+
+.quote {
+  border-left: 5px solid var(--color-gray);
+  padding-left: 10px;
+  max-width: 400px;
+  margin-top: 2rem;
+}
+
+.quoteText {
+  font-style: italic;
+  opacity: 0.6;
 }
 
 /* anything larger than 1024px, put it in global */

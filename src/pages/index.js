@@ -10,8 +10,7 @@ import {faDatabase, faHandshake, faShieldAlt} from '@fortawesome/free-solid-svg-
 
 function CoreValues() {
   return (
-    <section class="news">
-      {/* <h2 class="news">Latest Activity</h2> */}
+    <section class="container">
       <div class="row core-values">
         <div class="col col--4 centered">
           {/* <FontAwesomeIcon icon={faHandshake} color="orange" size="xs"/> */}
@@ -38,7 +37,7 @@ function CoreValues() {
 
 function Competition() {
   return (
-    <section class="">
+    <section class="container">
       <div class="row">
         <div class="col col--6 centered side-padding">
           <h2 class="">Competition</h2>
@@ -59,7 +58,7 @@ function Competition() {
 
 function Event() {
   return (
-    <section class="">
+    <section class="container">
       <div class="row">
         <div class="col col--6 fixed-img">
           <img src={useBaseUrl("img/tech_symposium.jpg")} alt="Event" />
@@ -80,7 +79,7 @@ function Event() {
 
 function Membership() {
   return (
-    <section class="">
+    <section class="container">
       <div class="row">
         <div class="col col--6 centered side-padding">
           <h2 class="">Membership</h2>
@@ -101,7 +100,7 @@ function Membership() {
 
 function Meeting() {
   return (
-    <section class="">
+    <section class="container">
       <div class="row">
         <div class="col col--6 fixed-img">
           <img src={useBaseUrl("img/meeting.png")} alt="Meetings" />
@@ -163,31 +162,11 @@ function Home() {
       </header>
 
       <main>
-        <div class="section ">
-          <section class="container">
-            <CoreValues />
-          </section>
-        </div>
-        <div class="section section-background-color">
-          <section class="container">
-            <Competition />
-          </section>
-        </div>
-        <div class="section">
-          <section class="container">
-            <Event />
-          </section>
-        </div>
-        <div class="section section-background-color">
-          <section class="container">
-            <Membership />
-          </section>
-        </div>
-        <div class="section">
-          <section class="container">
-            <Meeting />
-          </section>
-        </div>
+        <CoreValues />
+        <Competition />
+        <Event />
+        <Membership />
+        <Meeting />
       </main>
     </Layout>
   );
