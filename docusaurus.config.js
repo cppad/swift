@@ -82,14 +82,7 @@ module.exports = {
         // {to: 'about', label: 'About', position: 'left'},
         {to: 'contact', label: 'Contact', position: 'left'},
         {to: 'blog/', label: 'Blog', position: 'right'},
-        {to: 'docs/', label: 'Docs', position: 'right'},
-        // {to: 'docs/doc1', label: 'Docs', position: 'right'},
-        // {
-        //   to: 'docs',
-        //   activeBasePath: 'docs/',
-        //   label: 'Docs',
-        //   position: 'right'
-        // },
+        {to: 'docs/', activeBasePath: 'docs/', label: 'Docs', position: 'right'},
       ],
     },
     footer: {
