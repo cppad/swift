@@ -78,10 +78,11 @@ module.exports = {
             },
           ],
         },
+        {to: 'activities', label: 'Activities', position: 'left'},
         // {to: 'about', label: 'About', position: 'left'},
         {to: 'contact', label: 'Contact', position: 'left'},
         {to: 'blog/', label: 'Blog', position: 'right'},
-        {to: 'doc/', label: 'Docs', position: 'right'},
+        {to: 'docs/', label: 'Docs', position: 'right'},
         // {to: 'docs/doc1', label: 'Docs', position: 'right'},
         // {
         //   to: 'docs',
