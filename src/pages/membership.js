@@ -66,19 +66,22 @@ function Benefits() {
   return (
     <div className={clsx(styles.sectionPadding, "section-background-color")}>
       <div className="container">
+        <h2 className="centered">Benefits</h2>
         <div className={"row"}>
           <div className={"col col--4 centered"}>
-            <h2>Community</h2>
+            <h2 class="text--center">Community</h2>
             <div>
               <p>- Be part of a large community of students spanning over 20 years.</p>
               <p>- Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
             </div>
           </div>
-          <div className={"col col--4 centered"}>
-          <img src={useBaseUrl("img/logo_only_white.png")} alt="Event" />
+          <div className={"col col--4"}>
+            <div className={clsx(styles.logoFixedHeight)}>
+              <img src={useBaseUrl("img/logo_only_white.png")} alt="Event" />
+            </div>
           </div>
           <div className={"col col--4 centered"}>
-            <h2>???????</h2>
+            <h2 class="text--center">???????</h2>
             <div>
               <p>- Be part of a large community of students spanning over 20 years.</p>
               <p>- Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
@@ -86,15 +89,15 @@ function Benefits() {
           </div>
         </div>
         <div className={"row"}>
-          <div className={"col col--4 centered"}>
-            <h2>Giveaways</h2>
+          <div className={"col col--4"}>
+            <h2 class="text--center">Giveaways</h2>
             <div>
               <p>- Free food at meetings</p>
               <p>- Free T-Shirts, Stickers, Webcam Covers, and Other Swag</p>
             </div>
           </div>
-          <div className={"col col--4 centered"}>
-            <h2>Events</h2>
+          <div className={"col col--4"}>
+            <h2 class="text--center">Events</h2>
             <div>
               <p>- Access and discounts to conferences and events</p>
               <p>- Access to workshops and events throughout the year </p>
@@ -102,8 +105,8 @@ function Benefits() {
               <p>- Go on tours to organizations focusing on System Administration and Cyber Security</p>
             </div>
           </div>
-          <div className={"col col--4 centered"}>
-            <h2>Competition</h2>
+          <div className={"col col--4"}>
+            <h2 class="text--center">Competition</h2>
             <div>
               <p>Participate in competitions:</p>
               <p>- Participate in Collegiate Penetration Testing Competition (CPTC)</p>
