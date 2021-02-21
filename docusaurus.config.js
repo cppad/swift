@@ -83,7 +83,7 @@ module.exports = {
             },
           ],
         },
-
+        {to: 'activities', label: 'Activities', position: 'left'},
         {to: 'contact', label: 'Contact', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'right'},
         {
