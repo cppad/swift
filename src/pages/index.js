@@ -20,7 +20,7 @@ function CoreValues() {
             {/* TEMP FIX: use .svg-inline--fa to directly target icon */}
             {/* when using class={}, icon auto fills the container but can't resize with .core-icons class */}
             {/* <FontAwesomeIcon icon={faHandshake} class={clsx("core-icons")}/> */}
-            <FontAwesomeIcon icon={faHandshake}/>
+            <FontAwesomeIcon icon={faHandshake} className={clsx(styles.sectionIcon)}/>
             <div class={clsx("padding--sm centered")}>
               <h2>Networking</h2>
               <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
@@ -28,7 +28,7 @@ function CoreValues() {
           </div>
           <div class="col col--4 centered">
             {/* <FontAwesomeIcon icon={faShieldAlt} class={clsx("core-icons")}/> */}
-            <FontAwesomeIcon icon={faShieldAlt}/>
+            <FontAwesomeIcon icon={faShieldAlt} className={clsx(styles.sectionIcon)}/>
             <div class={clsx("padding--sm centered")}>
               <h2>Cybersecurity</h2>
               <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
@@ -36,7 +36,7 @@ function CoreValues() {
           </div>
           <div class="col col--4 centered">
             {/* <FontAwesomeIcon icon={faDatabase} class={clsx("core-icons")} /> */}
-            <FontAwesomeIcon icon={faDatabase}/>
+            <FontAwesomeIcon icon={faDatabase} className={clsx(styles.sectionIcon)}/>
             <div class={clsx("padding--sm centered")}>
               <h2>System Admin</h2>
               <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>

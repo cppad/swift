@@ -52,24 +52,15 @@
 
 /* Section */
 .sectionIcon {
-  font-size: 24px;
-  color: red;
+  font-size: 10rem;
+  margin: 1.5rem 0;
 }
-
 
 /* Text */
 .firstWord {
   font-size: 1.5rem;
   color: var(--color-blue-light);
 }
-
-/* .description {
-  width: 80%;
-} */
-
-/* .description > p {
-  margin-top: 1rem;
-} */
 
 /* Quote */
 .quote {
