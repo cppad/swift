@@ -8,11 +8,11 @@ import {fab, faTwitterSquare, faFacebook, faLinkedin, faGithub} from "@fortaweso
 
 function One() {
     return (
-     <section>
+     <section className={styles.section}>
       <div class="row core-values">
         <div class="col col--4 centered">   
           <img src={useBaseUrl('img/eboard-images/Silas_Shen.jpg')} className={styles.img} />
-          <p>Silas Shen</p>
+          <p className={styles.names}>Silas Shen</p>
           <p>Co-President</p>
           <p>
             <a href="https://www.linkedin.com/in/silass1/"> 
@@ -23,7 +23,7 @@ function One() {
         </div>
         <div class="col col--4 centered">
             <img src={useBaseUrl('img/eboard-images/Louie_Hernandez.jpg')} className={styles.img} />
-          <p>Louie Hernandez</p>
+          <p className={styles.names}>Louie Hernandez</p>
           <p>Co-President</p>
           <p>
             <a href="https://www.linkedin.com/in/louieh326/"> 
@@ -33,7 +33,7 @@ function One() {
         </div>
         <div class="col col--4 centered">
         <img src={useBaseUrl('img/eboard-images/Jennifer_Schwartz.jpg')}  className={styles.img}/>
-          <p>Jennifer Schwartz</p>
+          <p className={styles.names}>Jennifer Schwartz</p>
           <p>Head Chair of Conference</p>
           <p>
             <a href="https://www.linkedin.com/in/jenni-schwartz/"> 
@@ -52,7 +52,7 @@ function Two() {
       <div class="row core-values">
         <div class="col col--4 centered">   
           <img src={useBaseUrl('img/eboard-images/Taylor_Nguyen.jpg')} className={styles.img} />
-          <p>Taylor Nguyen</p>
+          <p className={styles.names}>Taylor Nguyen</p>
           <p>VP of Operations</p>
           <p>
             <a href="https://www.linkedin.com/in/taylorsnguyen/"> 
@@ -63,7 +63,7 @@ function Two() {
         
         <div class="col col--4 centered">
             <img src={useBaseUrl('img/eboard-images/Hannah_Kim.png')} className={styles.img} />
-          <p>Hannah Kim</p>
+          <p className={styles.names}>Hannah Kim</p>
           <p>Treasurer</p>
           <p>
             <a href="https://www.linkedin.com/in/hannaheunkyungkim/"> 
@@ -73,7 +73,7 @@ function Two() {
         </div>
         <div class="col col--4 centered">
         <img src={useBaseUrl('img/eboard-images/Brice_Lauer.png')} className={styles.img} />
-          <p>Brice Lauer</p>
+          <p className={styles.names}>Brice Lauer</p>
           <p>Director of SWIFT Academy</p>
           <p>
             <a href="https://www.linkedin.com/in/blauersec/"> 
@@ -92,7 +92,7 @@ function Three() {
       <div class="row core-values">
         <div class="col col--4 centered">   
           <img src={useBaseUrl('img/eboard-images/Somar_Dakak.jpg')} className={styles.img} />
-          <p>Somar Dakak</p>
+          <p className={styles.names}>Somar Dakak</p>
           <p>Director of SWIFT Labs</p>
           <p>
             <a href="https://www.linkedin.com/in/somar-dakak/"> 
@@ -102,7 +102,7 @@ function Three() {
         </div>
         <div class="col col--4 centered">
             <img src={useBaseUrl('img/eboard-images/Jessica_Foronda.jpg')} className={styles.img} />
-          <p>Jessica Foronda</p>
+          <p className={styles.names}>Jessica Foronda</p>
           <p>Director of Marketing</p>
           <p>
             <a href="https://www.linkedin.com/in/jessicaforonda/"> 
@@ -112,7 +112,7 @@ function Three() {
         </div>
         <div class="col col--4 centered">
         <img src={useBaseUrl('img/eboard-images/Angela_Lee.jpg')} className={styles.img}/>
-          <p>Angela Lee</p>
+          <p className={styles.names}>Angela Lee</p>
           <p>VP of Administrative Affairs</p>
           <p>
             <a href="https://www.linkedin.com/in/angelalee240"> 
