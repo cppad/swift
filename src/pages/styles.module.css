@@ -50,6 +50,12 @@
   width: 200px;
 }
 
+/* Section */
+.sectionIcon {
+  font-size: 24px;
+  color: red;
+}
+
 
 /* Text */
 .firstWord {
@@ -57,13 +63,13 @@
   color: var(--color-blue-light);
 }
 
-.description {
+/* .description {
   width: 80%;
-}
+} */
 
-.description > p {
+/* .description > p {
   margin-top: 1rem;
-}
+} */
 
 /* Quote */
 .quote {

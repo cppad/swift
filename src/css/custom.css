@@ -69,14 +69,6 @@
   border-radius: 15px;
 }
 
-.core-values .core-icons {
-  margin-bottom: 3rem;
-}
-
-.core-values h2 {
-  font-size: 2rem;
-}
-
 /* STRUCTURE */
 .col {
   border-style: none;
@@ -99,10 +91,16 @@ h1 {
 }
 
 /* FONTAWESOME */
-.core-icons {
+/* TEMP FIX: for core values icons */
+.svg-inline--fa {
+  /* color: red; */
   font-size: 10rem;
-
 }
+
+/* .core-icons {
+  font-size: 10rem !important;
+  color: red;
+} */
 
 /* SCROLLBAR */
 /* FireFox: can't resize scrollbar, can't use border-radius on scrollbar */

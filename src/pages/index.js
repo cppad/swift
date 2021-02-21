@@ -12,24 +12,35 @@ function CoreValues() {
   return (
     <div class={clsx(styles.sectionPadding)}>
       <section class="container">
-        <div class="row core-values">
+        <div class="row">
           <div class="col col--4 centered">
             {/* <FontAwesomeIcon icon={faHandshake} color="orange" size="xs"/> */}
             {/* <FontAwesomeIcon icon={faHandshake} color="orange" size="6x"/> */}
-            {/* <FontAwesomeIcon icon={faHandshake} class={clsx("test")} /> */}
-            <FontAwesomeIcon icon={faHandshake} class={"core-icons"} />
-            <h2>Networking</h2>
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+
+            {/* TEMP FIX: use .svg-inline--fa to directly target icon */}
+            {/* when using class={}, icon auto fills the container but can't resize with .core-icons class */}
+            {/* <FontAwesomeIcon icon={faHandshake} class={clsx("core-icons")}/> */}
+            <FontAwesomeIcon icon={faHandshake}/>
+            <div class={clsx("padding--sm centered")}>
+              <h2>Networking</h2>
+              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            </div>
           </div>
           <div class="col col--4 centered">
-            <FontAwesomeIcon icon={faShieldAlt} class={"core-icons"} />
-            <h2>Cybersecurity</h2>
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            {/* <FontAwesomeIcon icon={faShieldAlt} class={clsx("core-icons")}/> */}
+            <FontAwesomeIcon icon={faShieldAlt}/>
+            <div class={clsx("padding--sm centered")}>
+              <h2>Cybersecurity</h2>
+              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            </div>
           </div>
           <div class="col col--4 centered">
-            <FontAwesomeIcon icon={faDatabase} class={"core-icons"} />
-            <h2>System Admin</h2>
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            {/* <FontAwesomeIcon icon={faDatabase} class={clsx("core-icons")} /> */}
+            <FontAwesomeIcon icon={faDatabase}/>
+            <div class={clsx("padding--sm centered")}>
+              <h2>System Admin</h2>
+              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            </div>
           </div>
         </div>
       </section>

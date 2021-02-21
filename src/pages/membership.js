@@ -8,7 +8,7 @@ import styles from "./styles.module.css";
 
 function Steps() {
   return (
-    <div class={styles.sectionPadding}>
+    <div class={clsx(styles.sectionPadding)}>
       <div class="container">
         <div class="row">
           <div class="col centered padding--lg">
@@ -124,7 +124,7 @@ function Description() {
     <div class={styles.sectionPadding}>
       <div class="container">
         {/* <div class={styles.description}>  */}
-        <div class={clsx(styles.description, "margin-centered padding--lg")}>
+        <div class={clsx("margin-centered padding--xl")}>
           <p>
             <span class={styles.firstWord}>SWIFT</span> is a way of moving your college career to the next level.
             Joining is a three step process, but it should not take more then 10
