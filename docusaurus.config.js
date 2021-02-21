@@ -59,10 +59,6 @@ module.exports = {
               to: 'https://techsymposium.calpolyswift.org/',
               label: 'Tech Symposium',
             },
-            {
-              to: 'workshops',
-              label: 'Workshops',
-            },
           ],
         },
         {to: 'activities', label: 'Activities', position: 'left'},
