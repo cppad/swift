@@ -19,14 +19,19 @@
 } */
 
 .img {
-    height: 70%;
-    width: 30%;
+    height: 60%;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
 }
 
 p {
     margin-bottom: 0 !important;
 }
 
-.eboard-socials{
-    font-size: 15px;
+.socials{
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(155, 155, 155);
 }
+

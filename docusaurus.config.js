@@ -17,24 +17,29 @@ module.exports = {
       style: 'dark',
       hideOnScroll: true,
       logo: {
-        alt: 'SWIFT',
+        alt: 'My Site Logo',
         src: 'img/logo_only_white.png',
       },
       items: [
-        {to: 'about', label: 'About', position: 'left'},
         {
-          label: 'Membership',
+          to: 'about/about', 
+          label: 'About', 
           position: 'left',
           items: [
             {
-              to: 'eboard/eboard', 
-              label: 'Eboard'
+              to: 'about/about',
+              label: 'About SWIFT'
             },
             {
-              to: 'membership', 
-              label: 'Membership'
+              to: 'eboard/eboard',
+              label: 'EBoard'
             }
-          ],
+          ]
+        },
+        {
+          to: 'membership/membership',
+          label: 'Membership',
+          position: 'left',
         },
         // {to: 'events', label: 'Events', position: 'left'},
         
@@ -78,11 +83,15 @@ module.exports = {
             },
           ],
         },
-        {to: 'activities', label: 'Activities', position: 'left'},
-        // {to: 'about', label: 'About', position: 'left'},
+
         {to: 'contact', label: 'Contact', position: 'left'},
-        {to: 'blog/', label: 'Blog', position: 'right'},
-        {to: 'docs/', activeBasePath: 'docs/', label: 'Docs', position: 'right'},
+        {to: 'blog', label: 'Blog', position: 'right'},
+        {
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'right',
+        },
       ],
     },
     footer: {
