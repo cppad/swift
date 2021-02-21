@@ -21,13 +21,12 @@ module.exports = {
         src: 'img/logo_only_white.png',
       },
       items: [
-        {
-          to: 'about/about', 
+        { 
           label: 'About', 
           position: 'left',
           items: [
             {
-              to: 'about/about',
+              to: 'about',
               label: 'About SWIFT'
             },
             {
@@ -37,7 +36,7 @@ module.exports = {
           ]
         },
         {
-          to: 'membership/membership',
+          to: 'membership',
           label: 'Membership',
           position: 'left',
         },
