@@ -73,7 +73,7 @@ module.exports = {
           position: 'left', // or 'right'
           items: [
             {
-              to: 'tech_symposium',
+              to: 'https://techsymposium.calpolyswift.org/',
               label: 'Tech Symposium',
             },
             {
