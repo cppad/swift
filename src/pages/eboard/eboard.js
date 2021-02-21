@@ -26,7 +26,7 @@ function One() {
           <p>Louie Hernandez</p>
           <p>Co-President</p>
           <p>
-            <a href="https://www.linkedin.com/in/silass1/"> 
+            <a href="https://www.linkedin.com/in/louieh326/"> 
                 <FontAwesomeIcon icon={faLinkedin} className={styles.socials}/> 
             </a>
           </p>
