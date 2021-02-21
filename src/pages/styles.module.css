@@ -22,11 +22,16 @@
   }
 } */
 
-/* LAYOUT */
+/* LAYOUT/STRUCTURE */
 .topSpacing {
   margin-top: 1rem;
 }
 
+.sectionPadding {
+  padding: 20vh 0;
+}
+
+/* COMPONENTS */
 .buttons {
   display: flex;
   align-items: center;
@@ -45,11 +50,8 @@
   width: 200px;
 }
 
-.sectionPadding {
-  padding: 20vh 0;
-}
 
-/* TEXT */
+/* Text */
 .firstWord {
   font-size: 1.5rem;
   color: var(--color-blue-light);
@@ -86,6 +88,26 @@
   width: 100%;
   height: 100%;
 }
+
+/* Socials */
+.socialIcons {
+  font-size: 30px;
+  color: rgb(155, 155, 155);
+}
+
+.socialNames {
+  font-size: 22px;
+  font-weight: bolder;
+  margin-bottom: 0 !important;
+}
+
+.socialImg {
+  height: 60%;
+  border-radius: 10px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+}
+
 
 /* anything larger than 1024px, put it in global */
 /* Laptop */

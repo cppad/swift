@@ -30,8 +30,8 @@ module.exports = {
               label: 'About SWIFT'
             },
             {
-              to: 'eboard/eboard',
-              label: 'EBoard'
+              to: 'eboard',
+              label: 'eBoard'
             }
           ]
         },
@@ -47,26 +47,9 @@ module.exports = {
         // B has active hover class, doesn't open new tab when click on link
         // A https://v2.docusaurus.io/docs/api/themes/configuration/#navbar-dropdown
         {
-          
+          to: 'competition',
           label: 'Competition',
           position: 'left', // or 'right'
-          items: [
-            {
-              to: 'overview', 
-              label: 'Overview'
-            },
-            {
-              to: 'CPTC',
-              label: 'CPTC'
-            },
-            {
-              to: 'CCDC',
-              label: 'CCDC',
-              // for new tab external links use- "href: http://.."
-              // href: '...',
-            },
-            // ... more items
-          ],
         },
         {
           label: 'Events',
