@@ -105,6 +105,15 @@
   margin-bottom: 10px;
 }
 
+/* ABOUT PAGE  */
+.heading{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.message{
+  margin: 0px 20px;
+}
 
 /* anything larger than 1024px, put it in global */
 /* Laptop */
