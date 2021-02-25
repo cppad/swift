@@ -75,60 +75,76 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        
         {
-          title: 'Social Network',
-            items: [            
-  
-              {
-                label: 'Facebook',
-                to: 'membership/',
-              },
-              {
-                label: 'Instagram',
-                to: 'contact/',
-              },
-         
-              {
-                label: 'Youtube',
-                to: 'contact/',
-              },
-         
-            ],
-          
-        },
-        {
-          title: 'Connect',
           items: [
-          {
-            label: 'Discord',
-          
-            to: 'about/',
-          },
-          
-          {
-            label: 'Twitter',
-            to: 'contact/',
-          },
-         
+            {
+              html: `
+              <a href="https://www.youtube.com/user/CalPolySWIFT?feature=guide" target="_blank">
+                <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="YouTube" />
+              </a>
+            `,
+            },
           ],
         },
         {
-          title: 'Community',
           items: [
+            {
+              html: `
+              <a href="https://www.facebook.com/CalPolySWIFT" target="_blank">
+                <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="FaceBook" />
+              </a>
+            `,
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              html: `
+              <a href="https://twitter.com/calpolyswift" target="_blank">
+                <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Twitter" />
+              </a>
+            `,
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              html: `
+              <a href="https://discord.com/invite/Na5PGfp" target="_blank">
+                <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Discord" />
+              </a>
+            `,
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              html: `
+              <a href="https://github.com/CalPolySWIFT" target="_blank">
+                <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="GitHub" />
+              </a>
+            `,
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              html: `
+              <a href="https://www.linkedin.com/company/calpolyswift/" target="_blank">
+                <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="LinkedIn" />
+              </a>
+            `,
+            },
+          ],
+        },
 
-          {
-            label: 'Github',
-            to: 'contact/',
-          },
-          {
-            label: 'LinkedIn',
-            to: 'contact/',
-          },
-          ],
-        }
+
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus. Made by <a href="">Michelle Lee</a> and <a href="">Christian Falucho</a>.`,
     },
 
     colorMode: {
