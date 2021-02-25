@@ -10,7 +10,7 @@ function Mission(){
     <div class={styles.aboutDescription}>
     <div class="container">
       {/* <div class={styles.description}>  */}
-      <div class={clsx("margin-centered padding--xl")}>
+      <div class={clsx("margin-centered padding--lg")}>
         <p>
           We are Students with an Interest in the Future of Technology, 
           we are the premier information technology and security organization at Cal Poly Pomona. 
@@ -72,7 +72,7 @@ function About() {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          marginTop: '100px',
+          height: '25vh',
           fontSize: '20px',
         }}>
       <h1>SWIFT's Mission</h1>
