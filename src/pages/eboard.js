@@ -134,7 +134,7 @@ function Eboard() {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            height: '20vh',
+            height: '25vh',
           }}>
           <h1 >
             Our Team

@@ -191,7 +191,7 @@ function Membership() {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            height: '18vh',
+            height: '25vh',
           }}>
           <h1>Join the SWIFT Community</h1>
         </div>
