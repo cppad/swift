@@ -90,24 +90,33 @@
   height: 100%;
 }
 
-/* Socials */
+/* eBoard */
 .socialIcons {
   font-size: 30px;
   color: rgb(155, 155, 155);
 }
 
 .socialNames {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bolder;
   margin-bottom: 0 !important;
 }
 
 .socialImg {
-  height: 60%;
+  height: 50%;
   border-radius: 10px;
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
 }
+
+.ePosition {
+  margin-bottom: 5px !important;
+}
+
+.col .col--3 {
+  padding: 0 50px !important;
+}
+
 
 /* ABOUT PAGE  */
 .heading{
