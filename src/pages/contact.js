@@ -7,7 +7,7 @@ import styles from "./styles.module.css";
 
 function ContactUs() {
   return (
-    <div class={clsx(styles.sectionPadding, "section-background-color")}>
+  
       <div class="container">
         <div class="row padding--lg">
           <div class={"col col--6 centered"}>
@@ -34,7 +34,7 @@ function ContactUs() {
           </div>
         </div>
       </div>
-    </div>
+   
   );
 }
 
@@ -52,6 +52,7 @@ function Contact() {
         }}>
       <h1>Contact</h1>
       </div>
+      
       <main>
         <ContactUs />
       </main>
