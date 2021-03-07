@@ -158,7 +158,7 @@ function Membership() {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-           paddingTop: '100px'
+          paddingTop: '100px'
             // height: '25vh',
         }}>
         <h1>Cybersecurity Competitions</h1>
