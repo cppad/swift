@@ -144,7 +144,7 @@ module.exports = {
 
 
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus. Coded by <a href="">Michelle Lee</a> and <a href="">Christian Falucho</a>.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus. Coded by <a href="https://lnk.bio/z7q3">Michelle Lee</a> and <a href="">Christian Falucho</a>.`,
     },
 
     colorMode: {
