@@ -49,7 +49,7 @@ function Competition() {
         <div class="row">
           <div class="col col--5 centered padding--lg">
             <h2 class="">Competition</h2>
-            <p class="text--justify">
+            <p>
               Take your skill to the next level with challenges that put you up
               against the best in the field. Apply your skills building defensive
               networks, or be offensive and attack them. Our CCDC team will train
@@ -75,7 +75,7 @@ function Event() {
           </div>
           <div class="col col--5 centered padding--lg">
             <h2 class="">Events</h2>
-            <p class="text--justify">
+            <p>
               We hold basic and advanced weekly workshops cover topics such as
               using Linux, internet of things, and network forensics, an annual
               on-campus, student-run conference, Tech Symposium, and a quarterly
@@ -95,7 +95,7 @@ function Membership() {
         <div class="row">
           <div class="col col--5 centered padding--lg">
             <h2 class="">Membership</h2>
-            <p class="text--justify">
+            <p>
               If you like learning new topics, solving problems, breaking things,
               being with fellow hackers, get involved! Our membership provides you
               with resources to enhance your college experience and your
@@ -121,7 +121,7 @@ function Meeting() {
           </div>
           <div class="col col--5 centered padding--lg">
             <h2 class="">Meetings</h2>
-            <p class="text--justify">
+            <p>
               Come to our weekly meetings where we present and discuss topics
               focusing on cyber security, networking, system administration, and
               automation. We host peers and industry leaders in the field to give
@@ -154,12 +154,13 @@ function Home() {
           <div class="row">
             <div class="col col--12 centered hero-banner">
               {/* <h1 class="hero__title">{siteConfig.title}</h1> */}
-              {/* <p class="hero__subtitle">{siteConfig.tagline}</p> */}
               <img
                 src={useBaseUrl("img/logo_words_white.png")}
                 alt="Image alt text"
                 title="Logo Title Text 1"
               />
+              {/* <p class="hero__subtitle">{siteConfig.tagline}</p> */}
+              <p class="hero__subtitle">UNDER CONSTRUCTION</p>
               <div class={styles.buttons}>
                 <Link
                   class={clsx(
