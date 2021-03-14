@@ -57,7 +57,7 @@ function Competition() {
             </p>
           </div>
           <div class="col col--7 fixed-img">
-            <img src={useBaseUrl("img/trophies.jpg")} alt="Competition" />
+            <img src={useBaseUrl("img/trophies.webp")} alt="Competition" />
           </div>
         </div>
       </section>
@@ -71,7 +71,7 @@ function Event() {
       <section class="container">
         <div class="row">
           <div class="col col--7 fixed-img">
-            <img src={useBaseUrl("img/tech_symposium.jpg")} alt="Event" />
+            <img src={useBaseUrl("img/tech_symposium.webp")} alt="Event" />
           </div>
           <div class="col col--5 centered padding--lg">
             <h2 class="">Events</h2>
@@ -103,7 +103,7 @@ function Membership() {
             </p>
           </div>
           <div class="col col--7 fixed-img">
-            <img src={useBaseUrl("img/membership.jpg")} alt="Membership" />
+            <img src={useBaseUrl("img/membership.webp")} alt="Membership" />
           </div>
         </div>
       </section>
@@ -117,7 +117,7 @@ function Meeting() {
       <section class="container">
         <div class="row">
           <div class="col col--7 fixed-img">
-            <img src={useBaseUrl("img/meeting.png")} alt="Meetings" />
+            <img src={useBaseUrl("img/meeting.webp")} alt="Meetings" />
           </div>
           <div class="col col--5 centered padding--lg">
             <h2 class="">Meetings</h2>
@@ -146,7 +146,9 @@ function Home() {
       <header class={clsx("hero-container")}>
         <img
           class="hero-image"
-          src={useBaseUrl('img/banner.jpg')}
+          rel="preload"
+          as="image"
+          src={useBaseUrl('img/banner.webp')}
           alt="Image alt text"
           title="Logo Title Text 1"
         />

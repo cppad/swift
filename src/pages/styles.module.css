@@ -91,6 +91,11 @@
 }
 
 /* eBoard */
+
+.eboardSectionPadding {
+  padding: 2vh 0;
+}
+
 .socialIcons {
   font-size: 30px;
   color: rgb(155, 155, 155);
@@ -103,7 +108,7 @@
 }
 
 .socialImg {
-  height: 50%;
+  
   border-radius: 10px;
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;

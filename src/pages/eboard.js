@@ -8,8 +8,8 @@ import {fab, faTwitterSquare, faFacebook, faLinkedin, faGithub} from "@fortaweso
 
 function One() {
     return (
-     <section className={styles.section}>
-      <div class="row core-values">
+     <section className={styles.eboardSectionPadding}>
+      <div class="row">
         <div class="col col--6 centered">   
           <img src={useBaseUrl('img/eboard-images/Silas_Shen.jpg')} className={styles.socialImg} />
           <p className={styles.socialNames}>Silas Shen</p>
@@ -39,10 +39,10 @@ function One() {
 
 function Two() {
     return (
-        <section>
-      <div class="row core-values">
+      <section className={styles.eboardSectionPadding}>
+      <div class="row ">
         <div class="col col--4 centered">   
-          <img src={useBaseUrl('img/eboard-images/Taylor_Nguyen.jpg')} className={styles.socialImg} />
+          <img src={useBaseUrl('img/eboard-images/Taylor_Nguyen.jpg')} className={styles.socialImg}  />
           <p className={styles.socialNames}>Taylor Nguyen</p>
           <p className={styles.ePosition}>VP of Operations</p>
           <p>
@@ -80,8 +80,8 @@ function Two() {
 
 function Three() {
     return (
-        <section >
-      <div class="row core-values">
+      <section className={styles.eboardSectionPadding}>
+      <div class="row">
         <div class="col col--3 centered">   
           <img src={useBaseUrl('img/eboard-images/Somar_Dakak.jpg')} className={styles.socialImg} />
           <p className={styles.socialNames}>Somar Dakak</p>
