@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Students With an Interest in the Future of Technology',
   // tagline: 'STUDENTS WITH AN INTEREST IN THE FUTURE OF TECHNOLOGY',
   url: 'https://cppad.github.io',
-  baseUrl: '/swift/', /* for production development */
+  baseUrl: '/', /* for production development */ /*originally was /swift/*/ 
   // baseUrl: '/', /* for local development */
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
