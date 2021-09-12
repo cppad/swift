@@ -13,7 +13,7 @@ function Steps() {
         <div class="row">
           <div class="col centered padding--lg">
             <h2>STEP 1</h2>
-            <p>Fill out the Google Form</p>
+            <p>Join Discord</p>
             <div class={styles.buttons}>
               <Link
                 class={clsx(
@@ -27,8 +27,8 @@ function Steps() {
             </div>
           </div>
           <div class="col centered padding--lg">
-            <h2>STEP 1</h2>
-            <p>Fill out the Google Form</p>
+            <h2>STEP 2</h2>
+            <p>Join myBAR</p>
             <div class={styles.buttons}>
               <Link
                 class={clsx(
@@ -42,8 +42,8 @@ function Steps() {
             </div>
           </div>
           <div class="col centered padding--lg">
-            <h2>STEP 1</h2>
-            <p>Fill out the Google Form</p>
+            <h2>STEP 3</h2>
+            <p>Have Fun!</p>
             <div class={styles.buttons}>
               <Link
                 class={clsx(
