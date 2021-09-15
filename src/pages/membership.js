@@ -20,9 +20,9 @@ function Steps() {
                   "button button--primary button--gray-dark button-round button--lg",
                   styles.getStarted
                 )}
-                to={useBaseUrl("about/")}
+                to={"https://discord.gg/Na5PGfp/"}
               >
-                Google Form
+                Discord
               </Link>
             </div>
           </div>
@@ -35,26 +35,16 @@ function Steps() {
                   "button button--primary button--gray-dark button-round button--lg",
                   styles.getStarted
                 )}
-                to={useBaseUrl("about/")}
+                to={"https://mybar.cpp.edu/organization/telecommunications"}
               >
-                Google Form
+                myBAR
               </Link>
             </div>
           </div>
           <div class="col centered padding--lg">
             <h2>STEP 3</h2>
             <p>Have Fun!</p>
-            <div class={styles.buttons}>
-              <Link
-                class={clsx(
-                  "button button--primary button--gray-dark button-round button--lg",
-                  styles.getStarted
-                )}
-                to={useBaseUrl("about/")}
-              >
-                Google Form
-              </Link>
-            </div>
+            
           </div>
         </div>
       </div>
