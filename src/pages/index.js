@@ -76,7 +76,7 @@ function Event() {
           <div class="col col--5 centered padding--lg">
             <h2 class="">Events</h2>
             <p>
-              We hold basic and advanced weekly workshops cover topics such as
+              We hold basic and advanced weekly workshops which cover topics such as
               using Linux, internet of things, and network forensics, an annual
               on-campus, student-run conference, Tech Symposium, and a quarterly
               LAN party, Frag Nite, held in conjunction with CPP E-Sports.
