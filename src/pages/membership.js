@@ -43,8 +43,16 @@ function Steps() {
           </div>
           <div class="col centered padding--lg">
             <h2>STEP 3</h2>
-            <p>Have Fun!</p>
-            
+            <p>Complete Registration</p>
+            <Link
+                class={clsx(
+                  "button button--primary button--gray-dark button-round button--lg",
+                  styles.getStarted
+                )}
+                to={"https://www.eventbrite.com/e/swift-2021-2022-membership-tickets-169872480161"}
+              >
+              Membership Fees
+            </Link>
           </div>
         </div>
       </div>
@@ -61,20 +69,13 @@ function Benefits() {
           <div class={"col col--4 centered"}>
             <h2 class="text--center">Community</h2>
             <div>
-              <p>- Be part of a large community of students spanning over 20 years.</p>
-              <p>- Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
+              <p>-Be part of a large community of students spanning over 20 years.</p>
+              <p>-Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
             </div>
           </div>
           <div class={"col col--4"}>
             <div class={clsx(styles.logoFixedHeight)}>
               <img src={useBaseUrl("img/logo_only_white.png")} alt="Event" />
-            </div>
-          </div>
-          <div class={"col col--4 centered"}>
-            <h2 class="text--center">???????</h2>
-            <div>
-              <p>- Be part of a large community of students spanning over 20 years.</p>
-              <p>- Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
             </div>
           </div>
         </div>
