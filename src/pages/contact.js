@@ -23,11 +23,8 @@ function ContactUs() {
             <div className={styles.message}>
             <h1 className={styles.heading}>Visit us</h1>
               <p>
-                We're located on the 5th floor of the CLA Building.
-                We're located on the 5th floor of the CLA Building.
-                We're located on the 5th floor of the CLA Building.
-                We're located on the 5th floor of the CLA Building.
-
+                Due to COVID-19 restrictions, we are currently not meeting on campus. All of our meetings are 
+                conducted virtually. Join our discord for more information on our weekly meetings and workshops.
               </p>
             
             </div>
