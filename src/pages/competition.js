@@ -63,10 +63,13 @@ function CCDC() {
           <div class="col col--5 centered padding--lg">
             <h2 class=""><a href="http://www.nationalccdc.org/">CCDC</a></h2>
             <p class="text--justify">
-              We hold basic and advanced weekly workshops cover topics such as
-              using Linux, internet of things, and network forensics, an annual
-              on-campus, student-run conference, Tech Symposium, and a quarterly
-              LAN party, Frag Nite, held in conjunction with CPP E-Sports.
+              CCDC is a national blue teaming competition that challenges student to maintain 
+              and protect a simulated corporation. CCDC challenges a variety of skills, 
+              maintaining a company’s day-to-day operations, managing networks, 
+              and hardening main services in Linux and Windows. 
+              Many industries recognize CCDC as real world technical experience. 
+              To prepare, SWIFT invites all students for weekly CCDC training starting summer 
+              till the end of nationals.
             </p>
           </div>
         </div>
