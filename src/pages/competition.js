@@ -7,38 +7,6 @@ import clsx from 'clsx';
 import styles from "./styles.module.css";
 import {faDatabase, faHandshake, faShieldAlt} from '@fortawesome/free-solid-svg-icons';
 
-function ThreeColumn() {
-  return (
-    <div class={clsx(styles.sectionPadding)}>
-      <section class="container">
-        <div class="row">
-          <div class="col col--4 centered">
-            <FontAwesomeIcon icon={faHandshake} className={clsx(styles.sectionIcon)}/>
-            <div class={clsx("padding--sm centered")}>
-              <h2>???</h2>
-              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            </div>
-          </div>
-          <div class="col col--4 centered">
-            <FontAwesomeIcon icon={faShieldAlt} className={clsx(styles.sectionIcon)}/>
-            <div class={clsx("padding--sm centered")}>
-              <h2>???</h2>
-              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            </div>
-          </div>
-          <div class="col col--4 centered">
-            <FontAwesomeIcon icon={faDatabase} className={clsx(styles.sectionIcon)}/>
-            <div class={clsx("padding--sm centered")}>
-              <h2>???</h2>
-              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-}
-
 function Description() {
   return (
     <div class={clsx(styles.sectionPadding, "section-background-color")}>
@@ -164,7 +132,6 @@ function Membership() {
         <h1>Cybersecurity Competitions</h1>
       </div>
       <main>
-        <ThreeColumn />
         <Description />
         <CPTC />
         <CCDC />
