@@ -13,29 +13,6 @@ function Mission(){
       <section class="container">
         <div class="row">
           <div class="col col--3 centered">
-            {/* <FontAwesomeIcon icon={faHandshake} className={clsx(styles.sectionIcon)}/> */}
-            <div class={clsx("padding--sm centered")}>
-              <h2>History?</h2>
-              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            </div>
-          </div>
-          <div class="col col--3 centered">
-            {/* <FontAwesomeIcon icon={faShieldAlt} class={clsx("core-icons")}/> */}
-            {/* <FontAwesomeIcon icon={faShieldAlt} className={clsx(styles.sectionIcon)}/> */}
-            <div class={clsx("padding--sm centered")}>
-              <h2>Values?</h2>
-              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            </div>
-          </div>
-          <div class="col col--3 centered">
-            {/* <FontAwesomeIcon icon={faDatabase} class={clsx("core-icons")} /> */}
-            {/* <FontAwesomeIcon icon={faDatabase} className={clsx(styles.sectionIcon)}/> */}
-            <div class={clsx("padding--sm centered")}>
-              <h2>Goals?</h2>
-              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            </div>
-          </div>
-          <div class="col col--3 centered">
             {/* <FontAwesomeIcon icon={faDatabase} class={clsx("core-icons")} /> */}
             {/* <FontAwesomeIcon icon={faDatabase} className={clsx(styles.sectionIcon)}/> */}
             <div class={clsx("padding--sm centered")}>
