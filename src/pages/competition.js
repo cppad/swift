@@ -35,10 +35,12 @@ function CPTC() {
           <div class="col col--5 centered padding--lg">
             <h2 class=""><a href="https://globalcptc.org/">CPTC</a></h2>
             <p class="text--justify">
-              Take your skill to the next level with challenges that put you up
-              against the best in the field. Apply your skills building defensive
-              networks, or be offensive and attack them. Our CCDC team will train
-              you from the ground up.
+              CPTC is a national red teaming competition that challenges students to penetrate and attack by exploiting vulnerabilities 
+              in order to extract as much damaging information as possible. SWIFT provides training 
+              in both areas of securing and penetrating corporations; 
+              with an understanding of both practices, we hope students will thrive in the competition 
+              as well as the real world. SWIFT has been a huge supporter in all cybersecurity competitions, 
+              absorbing the same expenses for our CPTC competitors as CCDC.
             </p>
           </div>
           <div class="col col--7 fixed-img">
