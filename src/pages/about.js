@@ -12,12 +12,16 @@ function Mission(){
     <div class={clsx(styles.sectionPadding)}>
       <section class="container">
         <div class="row">
-          <div class="col col--3 centered">
+          <div class="col col--12 centered">
             {/* <FontAwesomeIcon icon={faDatabase} class={clsx("core-icons")} /> */}
             {/* <FontAwesomeIcon icon={faDatabase} className={clsx(styles.sectionIcon)}/> */}
             <div class={clsx("padding--sm centered")}>
-              <h2>???</h2>
-              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+              <p>We are Students with an Interest in the Future of Technology, the premier information technology and security organization at Cal Poly Pomona. 
+              We aim to inspire and create a generation of students who are aware and capable of dealing with the dynamic landscape of information security, 
+              cyber security, and information technology. Together we can build a secure future through training, experience, and education. 
+              Let's work together to create and learn something new. Don't just take our word for it. 
+              Whether you are an industry professional or a curious student, take a look at our previous events. 
+              While you're at it, come to one of our unique workshops, trainings, or conferences and become part of SWIFT.</p>
             </div>
           </div>
         </div>
