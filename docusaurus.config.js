@@ -2,8 +2,8 @@ module.exports = {
   title: 'SWIFT',
   tagline: 'Students With an Interest in the Future of Technology',
   // tagline: 'STUDENTS WITH AN INTEREST IN THE FUTURE OF TECHNOLOGY',
-  url: 'https://github.com/CalPolySWIFT/swift-new-website',
-  baseUrl: '/', /* for production development */ /*originally was /swift/*/ 
+  url: 'https://github.com/CalPolySWIF',
+  baseUrl: '/swift-new-website/', /* for production development */ /*originally was /swift/*/ 
   // baseUrl: '/', /* for local development */
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
