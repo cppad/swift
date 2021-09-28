@@ -12,8 +12,8 @@ function One() {
       <div class="row core-values">
         <div class="col col--6 centered">   
           <img src={useBaseUrl('img/eboard-images/Silas_Shen.jpg')} className={styles.socialImg} />
-          <p className={styles.socialNames}>Silas Shen</p>
-          <p className={styles.ePosition}>Co-President</p>
+          <p className={styles.socialNames}>Taylor Nguyen</p>
+          <p className={styles.ePosition}>President</p>
           <p>
             <a href="https://www.linkedin.com/in/silass1/"> 
                 <FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/> 
