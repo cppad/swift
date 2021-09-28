@@ -9,7 +9,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/SWIFT_favicon.ico',
   organizationName: 'CalPolySWIFT', // Usually your GitHub org/user name.
-  projectName: 'swift', // Usually your repo name.
+  projectName: 'swift-new-website', // Usually your repo name.
   themeConfig:
    {
     navbar: {
