@@ -2,13 +2,13 @@ module.exports = {
   title: 'SWIFT',
   tagline: 'Students With an Interest in the Future of Technology',
   // tagline: 'STUDENTS WITH AN INTEREST IN THE FUTURE OF TECHNOLOGY',
-  url: 'https://cppad.github.io',
+  url: 'https://github.com/CalPolySWIFT/swift-new-website',
   baseUrl: '/', /* for production development */ /*originally was /swift/*/ 
   // baseUrl: '/', /* for local development */
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/SWIFT_favicon.ico',
-  organizationName: 'cppad', // Usually your GitHub org/user name.
+  organizationName: 'CalPolySWIFT', // Usually your GitHub org/user name.
   projectName: 'swift', // Usually your repo name.
   themeConfig:
    {
