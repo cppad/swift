@@ -1,0 +1,38 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/swift-new-website/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/swift-new-website/docs",
+          "mainDocId": "doc1",
+          "docs": [
+            {
+              "id": "doc1",
+              "path": "/swift-new-website/docs/",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "doc2",
+              "path": "/swift-new-website/docs/doc2",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "doc3",
+              "path": "/swift-new-website/docs/doc3",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "mdx",
+              "path": "/swift-new-website/docs/mdx",
+              "sidebar": "someSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

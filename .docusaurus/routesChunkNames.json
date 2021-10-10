@@ -1,0 +1,131 @@
+{
+  "/swift-new-website/-514": {
+    "component": "ece76bd1",
+    "config": "5e9f5e1a"
+  },
+  "/swift-new-website/about-627": {
+    "component": "9a4ba0c7",
+    "config": "5e9f5e1a"
+  },
+  "/swift-new-website/blog-e8f": {
+    "component": "a6aa9e1f",
+    "sidebar": "46e13f4b",
+    "items": [
+      {
+        "content": "99caf125"
+      },
+      {
+        "content": "c0a4ca73"
+      },
+      {
+        "content": "2738c48a"
+      }
+    ],
+    "metadata": "1da26220"
+  },
+  "/swift-new-website/blog/hello-world-76f": {
+    "component": "ccc49370",
+    "sidebar": "46e13f4b",
+    "content": "843d79fe"
+  },
+  "/swift-new-website/blog/hola-149": {
+    "component": "ccc49370",
+    "sidebar": "46e13f4b",
+    "content": "aeda19be"
+  },
+  "/swift-new-website/blog/tags-e0a": {
+    "component": "01a85c17",
+    "sidebar": "46e13f4b",
+    "tags": "c439f80d"
+  },
+  "/swift-new-website/blog/tags/docusaurus-389": {
+    "component": "6875c492",
+    "sidebar": "46e13f4b",
+    "items": [
+      {
+        "content": "99caf125"
+      },
+      {
+        "content": "c0a4ca73"
+      },
+      {
+        "content": "2738c48a"
+      }
+    ],
+    "metadata": "0f5bf933"
+  },
+  "/swift-new-website/blog/tags/facebook-ee6": {
+    "component": "6875c492",
+    "sidebar": "46e13f4b",
+    "items": [
+      {
+        "content": "99caf125"
+      }
+    ],
+    "metadata": "9ecc47db"
+  },
+  "/swift-new-website/blog/tags/hello-1e7": {
+    "component": "6875c492",
+    "sidebar": "46e13f4b",
+    "items": [
+      {
+        "content": "99caf125"
+      },
+      {
+        "content": "c0a4ca73"
+      }
+    ],
+    "metadata": "4d0f1de9"
+  },
+  "/swift-new-website/blog/tags/hola-917": {
+    "component": "6875c492",
+    "sidebar": "46e13f4b",
+    "items": [
+      {
+        "content": "2738c48a"
+      }
+    ],
+    "metadata": "e4112d45"
+  },
+  "/swift-new-website/blog/welcome-800": {
+    "component": "ccc49370",
+    "sidebar": "46e13f4b",
+    "content": "a9ae89f1"
+  },
+  "/swift-new-website/competition-e88": {
+    "component": "f508babb",
+    "config": "5e9f5e1a"
+  },
+  "/swift-new-website/contact-629": {
+    "component": "9b327de1",
+    "config": "5e9f5e1a"
+  },
+  "/swift-new-website/eboard-c00": {
+    "component": "8c3cee6d",
+    "config": "5e9f5e1a"
+  },
+  "/swift-new-website/membership-cf4": {
+    "component": "548b29b3",
+    "config": "5e9f5e1a"
+  },
+  "/swift-new-website/docs-cae": {
+    "component": "1be78505",
+    "versionMetadata": "f976f453"
+  },
+  "/swift-new-website/docs/-bf2": {
+    "component": "17896441",
+    "content": "7366bc9d"
+  },
+  "/swift-new-website/docs/doc2-5d1": {
+    "component": "17896441",
+    "content": "991b72a1"
+  },
+  "/swift-new-website/docs/doc3-29c": {
+    "component": "17896441",
+    "content": "225b4c69"
+  },
+  "/swift-new-website/docs/mdx-0ba": {
+    "component": "17896441",
+    "content": "45acc928"
+  }
+}
